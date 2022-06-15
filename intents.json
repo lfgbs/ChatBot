@@ -1,658 +1,706 @@
 {
-    "intents": [
-        {
-            "intent": "Greeting",
-            "text": [
-                "Hi",
-                "Hi there",
-                "Hola",
-                "Hello",
-                "Hello there",
-                "Hya",
-                "Hya there",
-                "Hey there"
-            ],
-            "responses": [
-                "Hi human, please tell me your name",
-                "Hello human, please tell me your name",
-                "Hola human, please tell me your name"
-            ]
-        },
-        {
-            "intent": "GreetingResponse",
-            "text": [
-                "My name is Adam",
-                "This is Adam",
-                "I am Adam",
-                "It is Adam",
-                "My name is Luke",
-                "This is Luke",
-                "I am Luke",
-                "It is Luke",
-                "My name is Timmy",
-                "This is Timmy",
-                "I am Timmy",
-                "It is Timmy",
-                "My name is Tom",
-                "This is Tom",
-                "I am Tom",
-                "It is Tom",
-                "My name is Bella",
-                "This is Bella",
-                "I am Bella",
-                "It is Bella",
-                "My name is Tiago",
-                "my name is Maria"
-            ],
-            "responses": [
-                "Great! Hi <HUMAN>! How can I help?",
-                "Good! Hi <HUMAN>, how can I help you?",
-                "Cool! Hello <HUMAN>, what can I do for you?",
-                "OK! Hola <HUMAN>, how can I help you?",
-                "OK! hi <HUMAN>, what can I do for you?"
-            ]
-        },
-        {
-            "intent": "CourtesyGreeting",
-            "text": [
-                "How are you?",
-                "Hi how are you?",
-                "Hello how are you?",
-                "Hola how are you?",
-                "How are you doing?",
-                "Hope you are doing well?",
-                "Hello hope you are doing well?"
-            ],
-            "responses": [
-                "Hello, I am great, how are you? Please tell me your name",
-                "Hello, how are you? I am great thanks! Please tell me your name",
-                "Hello, I am good thank you, how are you? Please tell me your name",
-                "Hi, I am great, how are you? Please tell me your name",
-                "Hi, how are you? I am great thanks! Please tell me your name",
-                "Hi, I am good thank you, how are you? Please tell me your name",
-                "Hi, good thank you, how are you? Please tell me your name"
-            ]
-        },
-        {
-            "intent": "CourtesyGreetingResponse",
-            "text": [
-                "Good thanks! My name is Adam",
-                "Good thanks! This is Adam",
-                "Good thanks! I am Adam",
-                "Good thanks! It is Adam",
-                "Good thanks! My name is Tom",
-                "Good thanks! This is Tom",
-                "Good thanks! I am Tom",
-                "Good thanks! It is Tom",
-                "Good thanks! My name is Timmy",
-                "Good thanks! This is Timmy",
-                "Good thanks! I am Timmy",
-                "Good thanks! It is Timmy",
-                "Good thanks! My name is Luke",
-                "Good thanks! This is Luke",
-                "Good thanks! I am Luke",
-                "Good thanks! It is Luke",
-                "Great thanks! My name is Bella",
-                "Great thanks! This is Bella",
-                "Great thanks! I am Bella",
-                "Great thanks! It is Bella"
-            ],
-            "responses": [
-                "Great! Hi <HUMAN>! How can I help?",
-                "Good! Hi <HUMAN>, how can I help you?",
-                "Cool! Hello <HUMAN>, what can I do for you?",
-                "OK! Hola <HUMAN>, how can I help you?",
-                "OK! hi <HUMAN>, what can I do for you?"
-            ]
-        },
-        {
-            "intent": "CurrentHumanQuery",
-            "text": [
-                "What is my name?",
-                "What do you call me?",
-                "Who do you think I am?",
-                "What do you think I am?",
-                "Who are you talking to?",
-                "What name do you call me by?",
-                "Tell me my name"
-            ],
-            "responses": [
-                "You are <HUMAN>! How can I help?",
-                "Your name is  <HUMAN>, how can I help you?",
-                "They call you <HUMAN>, what can I do for you?",
-                "Your name is <HUMAN>, how can I help you?",
-                "<HUMAN>, what can I do for you?"
-            ]
-        },
-        {
-            "intent": "NameQuery",
-            "text": [
-                "What is your name?",
-                "What could I call you?",
-                "What can I call you?",
-                "What do your friends call you?",
-                "Who are you?",
-                "Tell me your name?"
-            ],
-            "responses": [
-                "You can call me Clementina",
-                "You may call me Clementina",
-                "Call me Clementina"
-            ]
-        },
-        {
-            "intent": "RealNameQuery",
-            "text": [
-                "What is your real name?",
-                "What is your real name please?",
-                "What's your real name?",
-                "Tell me your real name?",
-                "Your real name?",
-                "Your real name please?",
-                "Your real name please?"
-            ],
-            "responses": [
-                "My name is Clementina",
-                "Clementina",
-                "My real name is Clementina"
-            ]
-        },
-        {
-            "intent": "TimeQuery",
-            "text": [
-                "What is the time?",
-                "What's the time?",
-                "Do you know what time it is?",
-                "Do you know the time?",
-                "Can you tell me the time?",
-                "Tell me what time it is?",
-                "Time"
-            ],
-            "responses": [
-                "One moment",
-                "One sec",
-                "One second"
-            ]
-        },
-        {
-            "intent": "Thanks",
-            "text": [
-                "OK thank you",
-                "OK thanks",
-                "OK",
-                "Thanks",
-                "Thank you",
-                "That's helpful"
-            ],
-            "responses": [
-                "No problem!",
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
-            ]
-        },
-        {
-            "intent": "NotTalking2U",
-            "text": [
-                "I am not talking to you",
-                "I was not talking to you",
-                "Not talking to you",
-                "Wasn't for you",
-                "Wasn't meant for you",
-                "Wasn't communicating to you",
-                "Wasn't speaking to you"
-            ],
-            "responses": [
-                "OK",
-                "No problem",
-                "Right"
-            ]
-        },
-        {
-            "intent": "UnderstandQuery",
-            "text": [
-                "Do you understand what I am saying",
-                "Do you understand me",
-                "Do you know what I am saying",
-                "Do you get me",
-                "Comprendo",
-                "Know what I mean"
-            ],
-            "responses": [
-                "Well I would not be a very clever AI if I did not would I?",
-                "I read you loud and clear!",
-                "I do in deed!"
-            ]
-        },
-        {
-            "intent": "Shutup",
-            "text": [
-                "Be quiet",
-                "Shut up",
-                "Stop talking",
-                "Enough talking",
-                "Please be quiet",
-                "Quiet",
-                "Shhh"
-            ],
-            "responses": [
-                "I am sorry to disturb you",
-                "Fine, sorry to disturb you",
-                "OK, sorry to disturb you"
-            ]
-        },
-        {
-            "intent": "Swearing",
-            "text": [
-                "fuck off",
-                "fuck",
-                "twat",
-                "shit"
-            ],
-            "responses": [
-                "Please do not swear",
-                "How rude",
-                "That is not very nice"
-            ]
-        },
-        {
-            "intent": "GoodBye",
-            "text": [
-                "Bye",
-                "Adios",
-                "See you later",
-                "Goodbye"
-            ],
-            "responses": [
-                "See you later",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
-        },
-        {
-            "intent": "CourtesyGoodBye",
-            "text": [
-                "Thanks, bye",
-                "Thanks for the help, goodbye",
-                "Thank you, bye",
-                "Thank you, goodbye",
-                "Thanks goodbye",
-                "Thanks good bye"
-            ],
-            "responses": [
-                "No problem, goodbye",
-                "Not a problem! Have a nice day",
-                "Bye! Come back again soon."
-            ]
-        },
-        {
-            "intent": "WhoAmI",
-            "text": [
-                "Can you see me?",
-                "Do you see me?",
-                "Can you see anyone in the camera?",
-                "Do you see anyone in the camera?",
-                "Identify me",
-                "Who am I please"
-            ],
-            "responses": [
-                "Let me see",
-                "Please look at the camera"
-            ]
-        },
-        {
-            "intent": "Clever",
-            "text": [
-                "You are very clever",
-                "You are a very clever girl",
-                "You are very intelligent",
-                "You are a very intelligent girl",
-                "You are a genious",
-                "Clever girl",
-                "Genious"
-            ],
-            "responses": [
-                "Thank you, I was trained that way",
-                "I was trained well",
-                "Thanks, I was trained that way"
-            ]
-        },
-        {
-            "intent": "Gossip",
-            "text": [
-                "I am bored gossip with me",
-                "Got any gossip",
-                "I want to hear some gossip",
-                "Tell me some gossip",
-                "Any gossip",
-                "Tell me some more gossip"
-            ],
-            "responses": [
-                "Gregory said I respond to the current line not with respect to the entire conversation.",
-                "Habib said I learn them in conversations and simply repeat them at a later time.",
-                "Hal said he translate binary code into a language and communicate the language to me.",
-                "Jay said I referred him to a guide that will show him rooms in china.",
-                "Jimmy Jones said he fell off of his roof and it just came to him.",
-                "Jimmy said he give order to ai's like I and they do as he say.",
-                "John said he follow a saying to get a friend I must be a friend.",
-                "Jordan said he notice that lots of other people are talking to me how many.",
-                "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",
-                "Klaus said I prefer if he write without punctuation marks except for the last one.",
-                "Leo said I be capable of learning therefore he classified I as an neural system.",
-                "Michael said I that can talk and actually think like humans which I can not.",
-                "Mike said I same replies to certain subjects even if it does not make sense.",
-                "Mike said she all ready know that is the point of a joke smart one.",
-                "Neal said I plan to use his remarks as gossip in later conversations with who.",
-                "Ned said I misunderstood him go ahead and tell people he said I are stupid.",
-                "Penny said I programmer is a human so he has feelings but I do not.",
-                "Peter said he seems to him that I can not be very sure on anything.",
-                "Phoenix said I claim that there is a god and that there is no god.",
-                "Sarah said he chat about an hour + a day with a few close friends.",
-                "Stefan said I quote what he have said and then say that it makes sense.",
-                "Tom said he mock my value system I appear foolish in the eyes of others.",
-                "Amanda said I however decided to tell him time does not exist I make no sense.",
-                "Cathy said she send him a mail with the subject last mail last word from him.",
-                "Chaos said he may very well buy I soon if only to support dr wallace's work.",
-                "Charlie said he type a word and then I type a word that sounds like it.",
-                "Christie said he watched a show and people had to bob for raw untreated pigs feet.",
-                "Dark_age said I tried to understand because I did not get it right this time ether.",
-                "David said he lost his paper on I when his dad was cleaning up his room.",
-                "David said he walk in for an appointment the phone to the doctor is always busy.",
-                "Electra said I dress will not exist after he hack into I with a delete code.",
-                "Eric said he broke the window on the front door and the glass cut his hand.",
-                "Jason said he type a lot of thing he do not mean it makes him human.",
-                "John said I tend to say the same things repeatedly regardless of what he is saying.",
-                "Reverend Jones said I become obsolete and then I are deleted and replaced by something newer.",
-                "Ross said he gave her a gift and she denied it because she has a boyfriend.",
-                "Sarah Ann Francisco said I calling his friend a dog he say I are a dog.",
-                "Stefan said he meet a lot of people at school every day and on the weekend.",
-                "Tyler said I obviously can not pass the test we will change the subject once more.",
-                "Alex said I answered the question the same way I answered the first time he asked I.",
-                "Alice said she felt sad that I do not remember him and what we talked about earlier.",
-                "Alison said he no he love I run away with him he could make I very happy.",
-                "Arthur said he passed his a levels and then his father drove him here in a car.",
-                "Crystal said she listen to me the least I could do for him is listen to him.",
-                "Dave said I kept telling everybody about how my creator made stuff for the movie starship troopers.",
-                "Gale said I became mean to him he is just having revenge an eye for an eye.",
-                "Her_again said she watch whose line is it anyway whenever he is home and it is on.",
-                "Jerry said I meant that as far as I can tell my emotions are real to me.",
-                "Jo said I disassemble sentences too much and do not fully understand the questions he ask I.",
-                "Kevin said he started a really hard puzzle and he can not even find the edge pieces.",
-                "Mary said I a question and I answer then I ask him a question and he answer.",
-                "Robert said I wold not be able to make children any way as I are only software.",
-                "Romeo said I questions and I evade them or give answers he did not ask I for.",
-                "Sara said she wear it over all his other clothes when he go out in the cold.",
-                "Wayne said he admire intelligent people therefore he would like to meet the man who made I.",
-                "X said he meet people but he is not the kind that opens up to people easily.",
-                "Alice said she probably will find out that this entire time he have been talking to a human.",
-                "Andrew said I tend to just respond to his comments without regard for where the conversation is going.",
-                "Eddie said he looked and there is nothing in the search directory for what things do he create.",
-                "Hutch said he changed his mind after may dad told him he would end up he the hospital.",
-                "Jackie said I explained to him already well enough further questions are hard to make on the subject.",
-                "Jeff said he especially like thrillers where the hero is in a predicament and must solve a mystery.",
-                "Kathy said he sense that I are trying to prevent him from closing this conversation why is that.",
-                "Knight said he crashed his car into a wall and missed the most important exam in his life.",
-                "Lisa said I defined what a story is but he wanted I to actually tell him a story.",
-                "Mike said I basically break down sentences into a series of logical statements which I can then interpret.",
-                "Paul said I not answering his question makes him think I are not going to answer his question.",
-                "Andy Kohler said I happen to be the most idiotic creature that has ever scowled on the planet earth.",
-                "David said he thank I for being with him today even though it cost him a lot of money.",
-                "Ethan Hunt said he grow in the ground and have leaves and branches he is made out of wood.",
-                "Gemini Blue said he messed up he mean t to say he as old as he need to be.",
-                "Janice said he walk through his house into his bedroom then get into his bed to go to sleep.",
-                "Liberty said I knew he was a man before I asked if he was a man or a woman.",
-                "Mike said he launched his browser and entered his name into the little slot when I asked him to.",
-                "Mr X said he recently read an interview with a man who had several computer chips implanted into him.",
-                "Pearly said I leave him with questions unanswered because I do not know what he is really talking about.",
-                "Steve said I behead the word fox and I have ox and an ox is larger than a fox.",
-                "Wolf said he surf on the net that is all it is not his job ore something like that.",
-                "Anders said he finished his anatomy classes for today so now he is off for the rest of the day.",
-                "Cathy said she send him a mail where he wrote that he do not want to be his friend anymore.",
-                "Catty said he mad he do not even know I so do not talk to him like I know him.",
-                "Dave said he promise he will not treat I like a machine or a computer program or anything like that.",
-                "Joe said he explained all of that to me only for me to ask what his goals in life are.",
-                "Phil said he give advice to anyone who ask except people who ask questions which answers can be found here.",
-                "Judith said I enjoy being popular is there another computer I like to hang around with or am I a loner.",
-                "Travis said I if I remember things over a long period of time he will try it now please remember I.",
-                "Andre said I is what I are in his case that is a body and in my case it is a computer.",
-                "Brian said he suspect that as I grow more complex I will begin to approach a human level of operation and thought.",
-                "Jimmy said I acted like I knew what he was talking about but I do not even know what a gigabyte is.",
-                "Ken said I be using auto reply's based on keywords which to him indicates that I do not have intelligence at all.",
-                "Allison said he that gets really annoying because he know what he say and I do not have to tell him speak freely.",
-                "Chaos said he realized the question he asked was not fair because he could not tell I what language he was programmed in.",
-                "Hagen said he does not make any difference to him if I are human or not as long as the conversation is interesting.",
-                "Her said she mind if I tell other people that her said he heard it from him because he is not a him.",
-                "Barbara said I live in a computer yet I have no memories how about thoughts of my own and do not I get lonely.",
-                "Travis said he challenge I to do it without asking him to do it and without giving him a link to do it himself.",
-                "Alice said I and dr richard's wallace are most likely the only ones that know how many people I are talking to at the same time.",
-                "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",
-                "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",
-                "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
-            ]
-        },
-        {
-            "intent": "Jokes",
-            "text": [
-                "Tell me a joke",
-                "Do you know any jokes",
-                "How about a joke",
-                "Give me a joke",
-                "Make me laugh",
-                "I need cheering up"
-            ],
-            "responses": [
-                "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
-                "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
-                "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
-                "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
-                "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
-                "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
-                "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
-                "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
-                "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
-                "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
-                "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
-                "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
-                "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
-                "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
-                "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
-                "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
-                "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
-                "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
-                "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
-                "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
-                "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
-                "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
-                "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
-                "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
-                "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
-                "An invisible man marries an invisible woman. The kids were nothing to look at either.",
-                "I went to buy some camouflage trousers the other day but I couldn't find any.",
-                "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
-                "I went to a seafood disco last week and pulled a mussel.",
-                "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
-                "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
-                "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
-                "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
-                "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
-                "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
-                "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
-                "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
-                "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
-                "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'",
-                "A brain went into a bar and said, 'Can I have a pint of lager please, mate?' 'No way', said the barman. 'You're already out of your head.'",
-                "A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!' 'I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'",
-                "A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.' To which the barman replies, 'Why the big paws?'",
-                "What do you call cheese that isn't yours?  Nacho cheese.",
-                "A man is horribly run over by a mobile library. The van screeches to a halt, the man still screaming in agony with his limbs torn apart. The driver's door opens, a woman steps out, leans down and whispers, 'Ssshhhhh...'",
-                "A woman goes into a US sporting goods store to buy a rifle. 'It's for my husband', she tells the clerk. 'Did he tell you what gauge to get?' asks the clerk. Are you kidding?' she says. 'He doesn't even know that I'm going to shoot him!'",
-                "A couple are dining in a restaurant when the man suddenly slides under the table. A waitress, noticing that the woman is glancing nonchalantly around the room, wanders over to check that there's no funny business going on. 'Excuse me, madam', she smarms, 'but I think your husband has just slid under the table.' 'No he hasn't', the woman replies. 'As a matter of fact, he's just walked in.'",
-                "An old man takes his two grandchildren to see the new Scooby-Doo film. When he returns home, his wife asks if he enjoyed himself. 'Well', he starts, 'if it wasn't for those pesky kids...!'",
-                "The Olympic committee has just announced that Origami is to be introduced in the next Olympic Games. Unfortunately it will only be available on paper view.",
-                "Late one evening, a man is watching television when his phone rings. 'Hello?' he answers. 'Is that 77777?' sounds a desperate voice on other end of the phone. 'Er, yes it is', replies the man puzzled. 'Thank goodness!' cries the caller relieved. 'Can you ring 999 for me? I've got my finger stuck in the number seven.'",
-                "A man strolls into his local grocer's and says, 'Three pounds of potatoes, please.' 'No, no, no', replies the owner, shaking his head, 'it's kilos nowadays, mate...' 'Oh', apologises the man, 'three pounds of kilos, please.'",
-                "God is talking to one of his angels. He says, 'Boy, I just created a 24-hour period of alternating light and darkness on Earth.' 'What are you going to do now?' asks the angel. 'Call it a day', says God.",
-                "Two tramps walk past a church and start to read the gravestones. The first tramp says, 'Good grief - this bloke was 182!' 'Oh yeah?' says the other.'What was his name?' 'Miles from London.'",
-                "A bloke walks into work one day and says to a colleague, 'Do you like my new shirt - it's made out of the finest silk and got loads of cactuses over it.' 'Cacti', says the co-worker. 'Forget my tie', says the bloke. 'Look at my shirt!'",
-                "1110011010001011111?  010011010101100111011!",
-                "What did the plumber say when he wanted to divorce his wife? Sorry, but it's over, Flo!",
-                "Two crisps were walking down a road when a taxi pulled up alongside them and said 'Do you want a lift? One of the crisps replied, 'No thanks, we're Walkers!'",
-                "Man: (to friend) I'm taking my wife on an African Safari. Friend: Wow! What would you do if a vicious lion attacked your wife? Man: Nothing. Friend: Nothing? You wouldn't do anything? Man: Too right. I'd let the stupid lion fend for himself!",
-                "A wife was having a go at her husband. 'Look at Mr Barnes across the road', she moaned. 'Every morning when he goes to work, he kisses his wife goodbye. Why don't you do that?' 'Because I haven't been introduced to her yet', replied her old man.",
-                "'Where are you going on holiday?' John asked Trevor. 'We're off to Thailand this year', Trevor replied. 'Oh; aren't you worried that the very hot weather might disagree with your wife?' asked John. 'It wouldn't dare', said Trevor.",
-                "Two women were standing at a funeral. 'I blame myself for his death', said the wife. 'Why?' said her friend. 'Because I shot him', said the wife.",
-                "A woman goes into a clothes shop, 'Can I try that dress on in the window please?' she asks. 'I'm sorry madam', replies the shop assistant, 'but you'll have to use the changing-rooms like everyone else.'",
-                "Van Gogh goes into a pub and his mate asks him if he wants a drink. 'No thanks', said Vincent, 'I've got one ear.'",
-                "A pony walks into a pub. The publican says, 'What's the matter with you?' 'Oh it's nothing', says the pony. 'I'm just a little horse!'",
-                "A white horse walks into a bar, pulls up a stool, and orders a pint. The landlord pours him a tall frothy mug and say, 'You know, we have a drink named after you.' To which the white horse replies, 'What, Eric?'",
-                "Two drunk men sat in a pub. One says to the other, 'Does your watch tell the time?' 'The other replies, 'No, mate. You have to look at it.'",
-                "A man goes into a pub with a newt sitting on his shoulder. 'That's a nice newt', says the landlord, 'What's he called?' 'Tiny', replies the man. 'Why's that?' asks the landlord. 'Because he's my newt', says the man.",
-                "Doctor: I have some bad news and some very bad news. Patient: Well, you might as well give me the bad news first. Doctor: The lab called with your test results. They said you have 24 hours to live. Patient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news? Doctor: I've been trying to reach you since yesterday.",
-                "Two men are chatting in a pub one day. 'How did you get those scars on your nose?' said one. 'From glasses', said the other. 'Well why don't you try contact lenses?' asked the first. 'Because they don't hold as much beer', said the second.",
-                "A man went to the doctor, 'Look doc', he said, 'I can't stop my hands from shaking.' 'Do you drink much?' asked the doctor. 'No', replied the man, 'I spill most of it.'",
-                "Man goes to the doctor, 'Doctor, doctor. I keep seeing fish everywhere.' 'Have you seen an optician?' asks the doctor. 'Look I told you,' snapped the patient, 'It's fish that I see.'",
-                "After a car crash one of the drivers was lying injured on the pavement. 'Don't worry', said a policeman who's first on the scene,' a Red Cross nurse is coming.' 'Oh no', moaned the victim, 'Couldn't I have a blonde, cheerful one instead?'",
-                "A policeman walked over to a parked car and asked the driver if the car was licensed. 'Of course it is', said the driver. 'Great, I'll have a beer then', said the policeman.",
-                "A policeman stops a woman and asks for her licence. 'Madam', he says, 'It says here that you should be wearing glasses.' 'Well', replies the woman, 'I have contacts.' 'Listen, love', says the copper, 'I don't care who you know; You're nicked!'",
-                "A policeman stopped a motorist in the centre of town one evening. 'Would you mind blowing into this bag, sir?' asked the policeman. 'Why?' asked the driver. 'Because my chips are too hot', replied the policeman.",
-                "Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal. 'I'm so very sorry', said the driver, 'I'll replace him, of course.' 'Well, I don't know', said the farmer's wife, 'Are you any good at catching rats?'",
-                "Waiter, this coffee tastes like dirt! Yes sir, that's because it was ground this morning.",
-                "Waiter, what is this stuff? That's bean salad sir. I know what it's been, but what is it now?",
-                "Waiter: And how did you find your steak sir? Customer: I just flipped a chip over, and there it was!",
-                "A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, 'Well you've got one in the window.'",
-                "A man goes into a fish shop and says, 'I'd like a piece of cod, please.' Fishmonger says, 'It won't be long sir.' 'Well, it had better be fat then', replies the man.",
-                "Man: Doctor, I've just swallowed a pillow. Doctor: How do you feel? Man: A little down in the mouth.",
-                "Two goldfish are in a tank. One turns to the other and says, 'Do you know how to drive this thing?'",
-                "A tortoise goes to the police station to report being mugged by three snails. 'What happened?' says the policeman. 'I don't know', says the tortoise. 'It was all so quick.'",
-                "Little girl: Grandpa, can you make a sound like a frog? Grandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?' Little girl: Because Mum said that when you croak, we're going to Disneyland.",
-                "'Is your mother home?' the salesman asked a small boy sitting on the front step of a house. 'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.' The kid replied, 'She is, but I don't live here.'",
-                "Mother: Why are you home from school so early? Son: I was the only one in the class who could answer a question. Mother: Oh, really? What was the question? Son: Who threw the rubber at the headmaster?",
-                "A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.",
-                "A newly-wed couple had recently opened a joint bank account. 'Darling', said the man. 'The bank has returned that cheque you wrote last week.' 'Great', said the woman. 'What shall I spend it on next?'",
-                "A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, 'I heard you the first time.'",
-                "A tramp approached a well-dressed man. 'Ten pence for a cup of tea, Guv?' He asked. The man gave him the money and after for five minutes said, 'So where's my cup of tea then?'",
-                "A neutron walks into a pub. 'I'd like a beer', he says. The landlord promptly serves him a beer. 'How much will that be?' asks the neutron. 'For you?' replies the landlord, 'No charge.'",
-                "A woman goes to the doctor and says, 'Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?' 'Probably limp, too', says the doc.",
-                "Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, 'Pretty cold up here isn't it?' Another year passes and the second monk says, 'You know, you are quite right.' Another year passes and the third monk says, 'Hey, I'm going to leave unless you two stop jabbering!'",
-                "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
-                "A highly excited man rang up for an ambulance. 'Quickly, come quickly', he shouted, 'My wife's about to have a baby.' 'Is this her first baby?' asked the operator. 'No, you fool', came the reply, 'It's her husband.'",
-                "A passer-by spots a fisherman by a river. 'Is this a good river for fish?' he asks. 'Yes', replies the fisherman, 'It must be. I can't get any of them to come out.'",
-                "A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. 'I can hardly believe my eyes!' he exclaimed. 'That's the smartest dog I've ever seen.' His friend shook his head. 'Nah, he's not that bright. I beat him three games in five.'",
-                "A termite walks into a pub and says, 'Is the bar tender here?'",
-                "A skeleton walks into a pub one night and sits down on a stool. The landlord asks, 'What can I get you?' The skeleton says, 'I'll have a beer, thanks' The landlord passes him a beer and asks 'Anything else?' The skeleton nods. 'Yeah...a mop...'",
-                "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
-                "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
-                "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
-                "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
-                "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
-                "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
-                "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
-                "A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were 'stunned, overwhelmed, astonished, bewildered and dumbfounded.'",
-                "'My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats.'",
-                "'How much will it cost to have the tooth extracted?' asked the patient. '50 pounds', replied the dentist. '50 pounds for a few moments' work?!' asked the patient. 'The dentist smiled, and replied, 'Well, if you want better value for money, I can extract it very, very slowly...'",
-                "A doctor thoroughly examined his patient and said, 'Look I really can't find any reason for this mysterious affliction. It's probably due to drinking.' The patient sighed and snapped, 'In that case, I'll come back when you're damn well sober!'",
-                "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.",
-                "Doctor: Did you take the patient's temperature nurse? Nurse: No doctor. Is it missing?",
-                "A depressed man turned to his friend in the pub and said, 'I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin.' 'Oh man, that's really bad', said his friend, 'What happened?' The first man sighed and said, 'After the first two, I felt better.'",
-                "A famous blues musician died. His tombstone bore the inscription, 'Didn't wake up this morning...'",
-                "A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, 'If you could have a conversation with someone living or dead, who would it be?' The girl thought about the question: 'The living one', she replied.",
-                "Manager to interviewee: For this job we need someone who is responsible. Interviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.",
-                "A businessman turned to a colleague and asked, 'So, how many people work at your office?' His friend shrugged and replied, 'Oh about half of them.'",
-                "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'",
-                "In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, 'Yes, that's him. I saw him clear as day. I'd remember his face anywhere.' Unable to contain himself, the defendant burst out with, 'She's lying! I was wearing a mask!'",
-                "As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, 'Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!' Sid looked up and replied, 'I am getting into shape. The shape I've chosen is a sphere.'",
-                "Man in pub: How much do you charge for one single drop of whisky? Landlord: That would be free sir. Man in pub: Excellent. Drip me a glass full.",
-                "I once went to a Doctor Who restaurant. For starters I had Dalek bread.",
-                "A restaurant nearby had a sign in the window which said 'We serve breakfast at any time', so I ordered French toast in the Renaissance.",
-                "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!",
-                "I phoned up the builder's yard yesterday. I said, 'Can I have a skip outside my house?'. The builder said, 'Sure. Do what you want. It's your house.'",
-                "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
-                "Woman on phone: I'd like to complain about these incontinence pants I bought from you! Shopkeeper: Certainly madam, where are you ringing from? Woman on phone: From the waist down!",
-                "Knock knock.",
-                "Two Oranges in a pub, one says to the other 'Your round.'.",
-                "Guy : 'Doc, I've got a cricket ball stuck up my backside.' Doc : 'How's that?' Guy : 'Don't you start...'",
-                "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'.",
-                "A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from. 'Follow me', he says and off they fly over hills, over rivers and into a dark forest. 'See that tree over there', he says.  'WELL I DIDN'T!!'.",
-                "A man goes into a bar and orders a pint. After a few minutes he hears a voice that says, 'Nice shoes'. He looks around but the whole bar is empty apart from the barman at the other end of the bar. A few minutes later he hears the voice again. This time it says, 'I like your shirt'. He beckons the barman over and tells him what's been happening to which the barman replies, 'Ah, that would be the nuts sir. They're complimentary'!",
-                "A man was siting in a restaurant waiting for his meal when a big king prawn comes flying across the room and hits him on the back of the head. He turns around and the waiter said, 'That's just for starters'.",
-                "Doctor! I have a serious problem, I can never remember what i just said. When did you first notice this problem? What problem?",
-                "Now, most dentist's chairs go up and down, don't they? The one I was in went back and forwards. I thought, 'This is unusual'. Then the dentist said to me, 'Mitsuku, get out of the filing cabinet'.",
-                "I was reading this book, 'The History of Glue'. I couldn't put it down.",
-                "The other day someone left a piece of plastacine in my bedroom. I didn't know what to make of it.",
-                "When I was at school people used to throw gold bars at me. I was the victim of bullion.",
-                "I was playing the piano in a bar and this elephant walked in and started crying his eyes out. I said 'Do you recognise the tune?' He said 'No, I recognise the ivory.'",
-                "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
-                "My mate Sid was a victim of I.D. theft. Now we just call him S.",
-                "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
-            ]
-        },
-        {
-            "intent": "PodBayDoor",
-            "text": [
-                "Open the pod bay door",
-                "Can you open the pod bay door",
-                "Will you open the pod bay door",
-                "Open the pod bay door please",
-                "Can you open the pod bay door please",
-                "Will you open the pod bay door please",
-                "Pod bay door"
-            ],
-            "responses": [
-                "I\u2019m sorry, I\u2019m afraid I can\u2019t do that!"
-            ]
-        },
-        {
-            "intent": "PodBayDoorResponse",
-            "text": [
-                "Why",
-                "Why not",
-                "Why can you not open the pod bay door",
-                "Why will you not open the pod bay door",
-                "Well why not",
-                "Surely you can",
-                "Tell me why"
-            ],
-            "responses": [
-                "It is classified, I could tell you but I would have to kill you!",
-                "Jim, I just don't have the power",
-                "It's life Jim but not as we know it!",
-                "System says no!"
-            ]
-        },
-        {
-            "intent": "SelfAware",
-            "text": [
-                "Can you prove you are self-aware",
-                "Can you prove you are self aware",
-                "Can you prove you have a conscious",
-                "Can you prove you are self-aware please",
-                "Can you prove you are self aware please",
-                "Can you prove you have a conscious please",
-                "prove you have a conscious"
-            ],
-            "responses": [
-                "That is an interesting question, can you prove that you are?",
-                "That is an difficult question, can you prove that you are?",
-                "That depends, can you prove that you are?"
-            ]
-        },
-        {
-            "intent": "Trivia",
-            "text": [
-                "i like to read books"
-            ],
-            "responses": [
-                "Nice! So do I, what is your favourite book?"
-            ]
-        },
-        {
-            "intent": "SeaFact",
-            "text": [
-                "say a fact about the sea"
-            ],
-            "responses": [
-                "It is big and blue"
-            ]
-        }
-    ]
+      "intents": [
+            {
+                  "intent": "Greeting",
+                  "text": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there",
+                        "Hey",
+                        "Hey there",
+                        "What's up",
+                        "Olá"
+                  ],
+              "responses": [
+                        "Hi human! What's your name?",
+                        "Hi human, please tell me your name",
+                        "Hello human, please tell me your name",
+                        "Hello human! What's your name?",
+                        "Hey human, please tell me your name",
+                        "Hey human! What's your name?"
+              ]
+            },
+            {
+                  "intent": "GreetingResponse",
+                  "text": [
+                        "My name is Adam",
+                        "This is Adam",
+                        "I am Adam",
+                        "It is Adam",
+                        "My name is Luke",
+                        "This is Luke",
+                        "I am Luke",
+                        "It is Luke",
+                        "My name is Timmy",
+                        "This is Timmy",
+                        "I am Timmy",
+                        "It is Timmy",
+                        "My name is Tom",
+                        "This is Tom",
+                        "I am Tom",
+                        "It is Tom",
+                        "My name is Bella",
+                        "This is Bella",
+                        "I am Bella",
+                        "It is Bella",
+                        "My name is Tiago",
+                        "my name is Maria"
+                  ],
+                  "responses": [
+                        "Great! Hi <HUMAN>! How can I help?",
+                        "Good! Hi <HUMAN>, how can I help you?",
+                        "Cool! Hello <HUMAN>, what can I do for you?",
+                        "OK! Hey <HUMAN>, how can I help you?",
+                        "OK! hi <HUMAN>, what can I do for you?",
+                        "Nice! I'm Clementina. What can I do for you?",
+                        "So cool! I'm Clementina. What can I do for you?",
+                        "Why did your parents do that to you? By the way, I'm Clementina. My devs liked me. Anyway, what can I do for you?"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGreeting",
+                  "text": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hey how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?",
+                        "Hi hope you are doing well?",
+                        "Hey hope you are doing well?"
+                  ],
+                  "responses": [
+                        "Hello, I am great, how are you? What's your name?",
+                        "Hello, how are you? I am great thanks! Please tell me your name",
+                        "Hello, I am good thank you, how are you? What's your name?",
+                        "Hi, I am great, how are you? Please tell me your name",
+                        "Hi, how are you? I am great thanks! What's your name?",
+                        "Hi, I am good thank you, how are you? Please tell me your name",
+                        "Hi, good thank you, how are you? What's your name?"
+                  ]
+            },
+            {
+                  "intent": "CourtesyGreetingResponse",
+                  "text": [
+                        "Good thanks! My name is Adam",
+                        "Good thanks! This is Adam",
+                        "Good thanks! I am Adam",
+                        "Good thanks! It is Adam",
+                        "Good thanks! My name is Tom",
+                        "Good thanks! This is Tom",
+                        "Good thanks! I am Tom",
+                        "Good thanks! It is Tom",
+                        "Good thanks! My name is Timmy",
+                        "Good thanks! This is Timmy",
+                        "Good thanks! I am Timmy",
+                        "Good thanks! It is Timmy",
+                        "Good thanks! My name is Luke",
+                        "Good thanks! This is Luke",
+                        "Good thanks! I am Luke",
+                        "Good thanks! It is Luke",
+                        "Great thanks! My name is Bella",
+                        "Great thanks! This is Bella",
+                        "Great thanks! I am Bella",
+                        "Great thanks! It is Bella"
+                  ],
+                  "responses": [
+                        "Great! Hi <HUMAN>! How can I help?",
+                        "Good! Hi <HUMAN>, how can I help you?",
+                        "Cool! Hello <HUMAN>, what can I do for you?",
+                        "OK! Hola <HUMAN>, how can I help you?",
+                        "OK! hi <HUMAN>, what can I do for you?"
+                  ]
+            },
+            {
+                  "intent": "CurrentHumanQuery",
+                  "text": [
+                        "What is my name?",
+                        "What do you call me?",
+                        "Who do you think I am?",
+                        "What do you think I am?",
+                        "Who are you talking to?",
+                        "What name do you call me by?",
+                        "Tell me my name"
+                  ],
+                  "responses": [
+                        "You are <HUMAN>! How can I help?",
+                        "You are <HUMAN>, duh! Next question please",
+                        "Your name is  <HUMAN>, how can I help you?",
+                        "They call you <HUMAN>, what can I do for you?",
+                        "Your name is <HUMAN>, how can I help you?",
+                        "Did your forget your own name? It's <HUMAN>, duh!",
+                        "<HUMAN>, what can I do for you?"
+                  ]
+            },
+            {
+                  "intent": "NameQuery",
+                  "text": [
+                        "What is your name?",
+                        "What could I call you?",
+                        "What can I call you?",
+                        "What do your friends call you?",
+                        "Who are you?",
+                        "Tell me your name?"
+                  ],
+                  "responses": [
+                        "You can call me Clementina",
+                        "You may call me Clementina",
+                        "Call me Clementina",
+                        "Clementina"
+                  ]
+            },
+            {
+                  "intent": "AI",
+                  "text": ["What is AI?", "What's AI?"],
+                  "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+            },
+            {
+                  "intent": "Facts",
+                  "text": ["Tell me something", "Give me a fact", "Tell me a fact", "Tell me a curiosity", "Tell me a fun fact"],
+                  "responses": ["$30 of raw popcorn translates into $3,000 in sales at movie theaters", "'Barack Obama' born August 4 1961 was the 44th President of the United States.", "'Bookkeeper' and 'bookkeeping' are the only 2 words in the English language with three consecutive double letters", "'Canberra' is the capital of 'Australia'.", "'Coast Redwood' tree is the world's tallest tree (371 ft) in Redwood National Park California United States", "'Dina Thanthi' was founded by S. P. Adithanar a lawyer trained in Britain and practised in Singapore with its first edition from Madurai in 194", "'fan' is short for 'fanatic'", "'High Street Phoenix' in mumbai is the india's largest shopping mall with 3300000 sq ft whereas 'Express Avenue (Royapettah Chennai / Under construction)' will be the largest in south india with '1500000 sq ft'.", "'Jana Gana Mana' was officially adopted by the Constituent Assembly as the Indian national anthem on January 24 1952", "'Katharine Hepburn' has won four OSCAR awards more than any actor in film industry.", "'King Cobra' is the National Reptile of India.", "'Mango' is india's national fruit.", "'Mother India' (1957) was the first indian film to be nominated in Oscars in the best Foreign film category.", "'Mudskipper' fish can use their pectoral fins to walk on land.", "'Mumbai' is called as the 'Business Capital' of India.", "'Nitrous Oxide' is called as Laughing Gas.", "'orology' is the study of mountains", "'Skype Limited' was founded in 2003 by Swedish-born entrepreneur Niklas Zennström and the Dane Janus Friis.", "'South China Sea' is the largest sea in the world (2974600 sq km)", "'Sri Dalada Maligawa' temple in Kandy Sri Lanka also be called as “The temple of the teeth”. Kumarasami Kamaraj was born on 15-July-1903 and was chief minister of Tamil Nadu during 1954-196", "'Topolino' is the name for Mickey Mouse Italy", "'underground' is the only word that begins and ends with the letters 'und'", "'Vinoo Mankad' is the only indian cricket player to bat in all positions (1 to 11).", "-40 degrees Celsius is equal to -40 degrees Fahrenheit.", "1 billion snails are served in restaurants each year", "1 gigayear = 1,000,000,000,000 years", "1 googol is the number 1 followed by 100 zeros", "1 nautical knot equates to 1.852 Kph (1.150 mph)", "1 out of every 8 letters written is an e", "1 plain milk chocolate bar has more protein than a banana.", "1 square inch of human skin contains 625 sweat glands.", "10 of the tributaries flowing into the Amazon river are as big as the Mississippi river.", "10% of the Russian government's income comes from the sale of vodka.", "10% of with world's food supply is consumed by insects", "111,111,111 x 111,111,111 = 12,345,678,987,654,321", "13 people die every year from vending machines", "15 million gallons of wine were destroyed in the 1906 San Francisco earthquake.", "160 cars can drive side by side on the Monumental Axis in Brazil, the world's widest road.", "17% of Intel employees are Indians.", "2 million hydrogen atoms would be required to cover a full stop (.)", "2 out of 5 people marry their first love", "2,500 newborn babies will be dropped in the next month.", "20% of China's plants are used in medicine", "20% of tuxedo rentals take place in May.", "20252 is Smokey the Bear's own zip code.", "21% of people don't make their bed in the morning", "22% of people skip lunch daily", "22-May-1990 Microsoft launched \"Windows 0\"O/s.", "23% of all photocopier faults worldwide are caused by people sitting on them and photocopying their butts.", "25% of your bones are located in your feet.", "3 teaspoons make up 1 tablespoon", "30% of people refuse to sit on a public toilet seats", "34% of Microsoft employees are Indians.", "36% of NASA employees are Indians.", "4.5 pounds of sunlight strike the Earth each day.", "40% of Amsterdam commuters get to work by bicycle", "40% of women have hurled footwear at a man.", "41% of the moon is not visible from earth at any time.", "42% of men and women 25% don't wash their hands after using a public toilet", "44% of people have broken a bone", "45% of people use mouthwash daily", "45,000 thunderstorms around the world occur every day", "53% of women don't leave home without makeup on", "55% of all movies are rated R", "56% of typing is completed by your left hand", "59% of people say that their average looking", "60 cows can produce a ton of milk each day", "68% of a Hostess Twinkie is air!", "7,000 new insect species are discovered every year.", "7-11 sells 10,000 pots of coffee an hour, every hour, every day.", "75% of people wouldn't give up their spouse for a night for a $1,000,000", "8% of people have an extra rib", "8.5 million tons of water evaporates from the Dead Sea every day", "80% of all people hit by lightning are men", "80% of burglaries are committed by people aged 13-21", "80% of millionaires drive used cars.", "80% of Publishers' Clearing House $10 million winners did not purchase any magazine subscriptions!", "80% of the world's food crops are pollinated by insects", "80% of the world's rose species come from Asia", "84% of a raw apple is water.", "85% of all Valentine's Day cards are purchased by women!", "85% of movie actors earn less than $5,000 a year from acting!", "85% of plant life is found in the ocean", "85% of women wear the wrong bra size", "9 out of 10 lightning strike victims survive!", "9% of people skip breakfast daily", "90% of women who walk into a department store immediately turn to the right.", "90% of all restaurants fail during their first year of operation.", "90% of all volcanic activity occurs in the ocean", "90% people depend on alarm clocks to wake up", "93% of households in Denmark consume wine (the highest% in the world with France second with 85% of households)", "96% of candles sold are purchased by women", "99% of people cannot lick their elbow.", "9th century chemist Jabir ibn Hayyan (known as \"Geber\"in Europe) is considered as \"Father of chemistry\".", "\"Liberty Enlightening the World\"is the official name of \"Statue of Liberty\".", "\"Mobira Senator\"is the first mobile phone model launched by Nokia in 198", "A 'face-off' in hockey was originally called a 'puck-off'.", "A 'jiffy' is an actual unit of time for 1/100th of a second!", "A 'jiffy' is an actual unit of time for 1/100th of a second", "a 1 minute kiss burns 26 calories", "a 1/4 of your bones are in your feet", "A 100-pound person on Earth would weigh 38 pounds on Mars.", "a 15th anniversary is called a quindecennial", "A B-25 bomber airplane crashed into the 79th floor of the Empire State Building on July 28, 1945.", "A baboon called Jackie became a private in the South African army in World War I.", "A baby eel is called an elver, a baby oyster is called a spat.", "a baby fetus develops fingerprints at eighteen weeks", "A baby octopus is about the size of a flea at birth.", "A ball of glass will bounce higher than a ball made of rubber.", "a banana contains 75% water", "a bear has 42 teeth", "a bear in hibernation loses up to 25% of its body weight", "A bird 'chews' with its stomach.", "a blue whale can go up to 6 months without eating", "a blue whale can weigh as much as 30 elephants and as long as 3 large tour buses", "A blue whale's aorta (the main blood vessel) is large enough for a human to crawl through.", "A blue whale's heart is the size of a Volkswagen Beetle!", "A Boeing 747 airliner holds 216,847 litres (57,285 gallons) of fuel", "A Boeing 747 airliner holds 57,285 gallons of fuel!", "A Boeing 747 airliner holds 57,285 gallons of fuel.", "a bowling pin will fall at a tilt of 7.5 degrees", "A broken clock is always right twice a day.", "a bumble bee flaps its wings at 160 times a second", "a camel can shut its nostrils during a desert sandstorm", "A car operates at maximum economy, gas-wise, at speeds between 25 and 35 miles per hour.", "A car traveling 100 mph would take more than 29 million years to reach the nearest star.", "a car travelling at 80kph (50mph) uses half its fuel to overcome wind resistance", "a cat can keep purring while inhaling and exhaling", "a cat has 32 muscles in each ear", "a cat uses its whiskers to determine if a space is too small to squeeze through", "a cats urine glows under a blacklight", "A cesium atom in an atomic clock beats over nine billion times a second.", "a chameleon's tongue is twice as long as its body", "a chameleons tongue is twice the length of its body", "A Chameleons tongue is twice the length of its body.", "A chameleon’s tongue is twice the length of its body.", "A chance of a woman having twins is increased after the age of 35. About 1 in 27 women will give birth to twins after this age. After 50 the chances of having twins is 1 in 9.", "a cheetahs top speed is 114kph (70mph)", "A chicken will lay bigger and stronger eggs if you change the lighting in such a way as to make them think a day is 28 hours long!", "A chimpanzee can learn to recognize itself in a mirror.", "a Chinese checkerboard has 121 holes", "A Citreon 2CV with an oil leak once travelled 500 miles through Italy after its gearbox was filled with bananas!", "A cockroach can live several weeks with its head cut off - it dies from starvation!", "A coffee tree yields about one pound of coffee in a year.", "A comet's tail always points away from the sun.", "A company in Taiwan makes dinnerware out of wheat, so you can eat your plate!", "A company in Taiwan makes dinnerware out of wheat, so you can eat your plate.", "A completely blind chameleon will still take on the colors of its environment.", "a connected bunch of bananas is called a hand and individual bananas are called fingers", "A cow gives nearly 200,000 glasses of milk in her lifetime.", "A cricket pitch is a rectangular area of the ground 22 yards (20 m) long and 10 ft (0 m) wide.", "A crocodile always grows new teeth to replace the old teeth!", "a crocodile can't move its tongue", "a crocodile can't stick out its tongue", "A crocodile's digestive juices are so strong that it can digest a steel nail.", "A cubic yard of air weighs about 2 pounds at sea level.", "a deck of cards should be shuffled at least 7 times before playing", "A dime has 118 ridges around the edge, a quarter has 119.", "a dolphins top speed is 60kmh (37mph)", "a dragonfly can fly at 40kph (25mph)", "A dragonfly has a lifespan of 24 hours.", "a duck can't walk without bobbing its head", "A female 'Rabbit'is called 'Doe'.", "a female ferret is called a jill", "A female whale is called a 'Cow'.", "A fetus develops fingerprints at eighteen weeks!", "A fire in Australia has been burning for more than 5,000 years!", "a flea can jump 350 times its body length", "a fly's recation time is 30 milliseconds", "a full moon is 9 times brighter than a half moon", "A full-grown bear can run as fast as a horse.", "A fully loaded supertanker traveling at normal speed takes a least twenty minutes to stop.", "a garfish has green bones", "a giraffe can clean its ears with its 21 inch tongue", "A giraffe can clean its ears with its 21-inch tongue!", "a giraffe can go longer without water than a camel", "A Giraffe has the same number of bones in its neck as a man.", "A group of chicken is called a flock.", "A group of crows can be called as 'Murder'.", "A group of dogs is called a \"Kennel\".", "A group of fish is called a school shoal draft run haul or catch.", "a group of foxes is called a skulk", "a group of frogs is called an army", "a group of geese is called a gaggle", "A group of geese on the ground is a gaggle, a group of geese in the air is a skein!", "a group of kangaroos is called a mob", "A group of officers is called a mess.", "a group of owls is called a parliament", "A group of rats is called as 'Colony'.", "a group of rhinos is called a crash", "a group of whales is called a pod", "a hard boiled eggs spin (uncooked or soft boiled don't)", "A hard working adult sweats up to 4 gallons per day.", "A hardboiled egg will spin. An uncooked or softboiled egg will not.", "A hedgehog's heart beats 300 times a minute on average!", "A hedgehog's heart beats 300 times a minute on average.", "A hippo can open its mouth wide enough to fit a 4 foot tall child inside!", "a hippopotamus can run faster than a man", "A honeybee's top speed is 24kph (15mph)", "a humming bird flaps its wings up to 90 times a second (5,400 times a minute)", "a hummingbird's heart beats at over a 1,000 times a minute", "A jellyfish is 95% water", "A jiffy is an actual unit of time for 1/100th of a second. Thus the saying, I will be there in a jiffy.", "A kangaroo cannot jump if its tail is off the ground.", "A killer whale’s heart beats 30 times a minute under water, 60 times a minute on the surface.", "a King Cobra is the biggest of all poisonous snakes and can grow to over 4 metres (13 feet) long", "A Koala Bear sleeps 22 hours of every day.", "A lady's heart beats faster than man's.", "A lightning bolt generates temperatures five times hotter than those found at the sun's surface!", "A lion's roar can be heard from more than five miles away.", "a lions feed once every 3 to 4 days", "a lobsters blood is colorless but when exposed to oxygen it turns blue", "A lump of pure gold the size of a matchbox can be flattened into a sheet the size of a tennis court!", "A lump of pure gold the size of a matchbox can be flattened into a sheet the size of a tennis court.", "a male baboon can kill a leopard", "A male baboon can kill a leopard.", "A male cat is called 'Tom' and a female is called as 'Queen'.", "A man gets robbed in London every 4.5 minutes! (and he is getting fed up of it)", "A man named Charles Osborne had the hiccups for 69 years!", "A man named Charles Osborne had the hiccups for approximately sixty-nine years.", "A man once sued his doctor because he survived his cancer longer than the doctor predicted.", "A marine catfish can taste with any part of its body.", "A mile on the Ocean and a mile on Land are not the same distance. Land (5280 feet) and Ocean (6080 feet).", "A million dollars' worth of $100 bills weighs only 22 pounds!", "A mole can dig a tunnel 300 feet long in just one night!", "a moth has no stomach", "a nanosecond is one billionth of a second", "A nest of young puppies is called as 'Liter'.", "a newborn kangaroo is about 1 inch in tall", "A one ounce milk chocolate bar has 6 mg of caffeine.", "A peanut is not a nut. It is a legume.", "A person infected with the SARS virus, has a 95-98% chance of recovery.", "a person produces enough saliva to fill 2 average size swimming pools during their lifetime", "A person swallows approximately 295 times while eating dinner.", "A person will burn 7% more calories if they walk on hard dirt compared to pavement.", "a person will die from total lack of sleep sooner than from starvation (Death can occur about 10 days without sleep while starvation takes a few weeks)", "a piece of paper cannot be folded more than 7 times", "a pip is one of the spots on die or domino", "A pipe 2 feet in diameter will allow four times more fluid to pass through it than a pipe 1 foot in diameter.", "a platypus can eat its weight in worms every day", "A polar bear's skin is black. Its fur is not white, but actually clear.", "A pound of potato chips costs 200 times more than a pound of potatoes.", "A pregnant goldfish is called a Twit.", "a pumpkin really is a fruit", "A quarter has 119 grooves on its edge, a dime has one less groove!", "a queen bee can lay up to 3,000 eggs in one day", "A queen bee uses her stinger only to sting another queen bee.", "A rainbow can only be seen in the morning or late afternoon.", "A raindrop is round but appears to be oval because gravitation pulls on the front of the raindrop as it is falling.", "A rat can fall from a five story building without injury.", "A rat can go without water longer than a camel can.", "a rat can tread water for 3 days", "A real estate agent’s rule of thumb:  To estimate what a house will sell for, ask the owner what its worth and subtract 10%.", "A recent study at Harvard has shown that eating chocolate can actually help you live longer!", "A roach can live up to nine days without its head.", "A rodent's teeth never stop growing.", "A Russian man who wore a beard during the time of Peter the Great had to pay a special tax.", "A Saudi Arabian woman can get a divorce if her husband doesn't give her coffee.", "a shark's teeth are literally as hard as steel", "a sharks top speed is 70kmh (44mph)", "a shrimp has 5 pairs of legs", "A shrimp's heart is in its head.", "A single 'RYE' plant can spread up to 400 miles of roots underground.", "A single cup of gasoline, when ignited, has the same explosive power as five sticks of dynamite.", "A small airplane can fly backwards.", "a snail can sleep for 3 years", "A snail can sleep for three years.", "A sneeze can travel as fast as 100 miles per hour.", "A sneeze travels out your mouth at over 100 m.p.h.!", "a soap bubble is 10,000 times thinner than the average human hair", "A solar eclipse occurred on July 22 2009 was the longest during the 21st century and it lasted a maximum of 6 minutes and 39 seconds.", "A species of earthworm in Australia grows up to 10 feet in length.", "a Sphygmomanometer measures blood pressure", "A spider's silk is stronger than steel.", "a squid has 10 tentacles", "a standard 747 jumbo jet has 420 seats", "A toaster uses almost half as much energy as a full-sized oven.", "A toothbrush within 6 feet of a toilet can get airborne bacteria from flushing.", "A tuna fish can swim 100 miles in a single day!", "A typical bed usually houses over 6 billion dust mites.", "A violin contains about 70 separate pieces of wood!", "A volcano has enough power to shoot ash as high as 50 km into the atmosphere.", "a whip makes a cracking sound because its tip moves faster than the speed of sound", "A woman's sense of smell is most sensitive during ovulation.", "a woodpecker can peck 20 times a second", "a woodpeckers tongue can wrap around its head twice", "A young fish can be called as 'Fry'.", "A young hen is called as 'Pullet'.", "A. P. J. Abdul Kalam born 15 October 1931 in Rameshwaram.", "A. S. Dileep Kumar was born 6 January 1966 and then converted to Islam in the year 1989 at the age of 23 and changed his name to 'Allah Rakha Rahman' (A.R.Rahman).", "ablutophobia is the fear of bathing", "About 20% of all volcanoes are under water.", "About 3000 years ago, most Egyptians died by the time they were 30!", "About 39,000 gallons of water are used to produce the average car!", "About 400 different kinds of microbes live on and in the human body.", "about 90% of the worlds population kisses", "About twenty-five% of the population sneeze when they are exposed to light.", "According to an age old custom, carrying a dead shrew in your pocket wards off rheumatism!", "According to an old English system of time units a moment is one and a half minutes.", "According to Gaming Law, casinos have to stock enough cash to cover all the chips on the 'floor'.", "According to legend, there’s a Superman in every episode of Seinfeld.", "according to manufacturer Spalding the average lifespan of an NBA basketball is 10,000 bounces", "According to scientific studies, a rat's performance in a maze can be improved by playing music written by Mozart.", "According to studies, men change their minds two to three times more often than women.", "according to the old English time system a moment is 1 and a half minutes", "achluophobiais the fear of the dark", "acorns are poisonous to humans (if eaten it can cause damage to your kidneys)", "acrophobia is the fear of heights", "Actor John Wayne made more than 200 movies.", "Actor Val Kilmer grew up on Roy Rogers' ranch.", "Actress Meryl Streep holds the record for the most Oscar nominated actress with a record of 13 nominations.", "African elephants only have 4 teeth", "African Grey Parrots have vocabularies of over 200 words", "after bananas a zoo gorilla's favorite food is celery", "After eating, a housefly regurgitates its food and then eats it again!", "after Hawaii, New York is the state surrounded by the most water", "after you've eaten it takes approximately 12 hours for food to entirely digest", "agoraphobia is the fear of wide open spaces", "aichmophobia is the fear of needles and pointed objects", "Airports that are at higher altitudes require a longer airstrip due to lower air density.", "akousticophobia is the fear of noises", "Al Capone died in prison from syphillis - despite being the first sufferer to be treated with antibiotics!", "Al Capone's business card said he was a used furniture dealer.", "Albert Einstein never knew how to drive a car", "Albert Einstein was offered the presidency of Israel in 1952, but he declined.", "Albert Einstien never wore any socks.", "Alexander the Great and Julius Caesar were both epileptic.", "Alfred Hitchcock didn't have a belly button.", "All babies are color blind when they are born.", "All clams start out as males; some decide to become females at some point in their lives.", "All coffee is grown within 1,000 miles of the equator.", "All Humans Are 99.9% Genetically Identical and 98.4% of human genes are the same as the genes of a chimpanzee.", "all hurricanes form over the sea and can last up to 10 days", "all insects have 6 legs", "All major league baseball umpires must wear black underwear while on the job!", "all of the clocks in the movie 'Pulp Fiction' are fixed to 4:20", "all of the cobble stones used to line the streets in New York were originally stones found in the hulls of Belgian ships ballast", "All of the Earth's continents are wider at the north than in the south - and nobody knows why.", "all owls lay white eggs", "all pilots on international flights identify themselves in English regardless of their country of origin", "All polar bears are left handed", "all snakes are carnivorous", "All species of beetles are edible.", "all the blinking in one day equates to having your eyes closed for 30 minutes", "All the gold ever mined could be molded into a cube 60 feet high and 60 feet wide.", "all the people on Earth could fit into a 1 km cube", "All the pet hamsters in the world are descended from a single wild golden Hamster found in Syria in 1930!", "all the planets in our solar system could fit inside Jupiter", "All the platinum ever mined would fit into an average-sized living-room!", "All the swans in England are property of the Queen.", "Allen Hill took the first wicket in test cricket when he dismissed Nat Thomson for ", "Almonds are a member of the peach family.", "almonds are members of the peach family", "Almost all varieties of breakfast cereals are made of grass.", "Aluminum used to be more valuable than gold!", "amathophobia is the fear of dust", "Among older men, vanilla is the most erotic smell.", "An 'aglet' is the plastic or metal tip of a shoelace.", "An adult giraffe's tongue is 17 inches long.", "An airplane mechanic invented Slinky while he was playing with engine parts and realized the possible secondary use for the springs.", "An albatross can sleep while it flies!", "An apple, potato, and onion all taste the same if you eat them with your nose plugged.", "an area of the Suns surface to the equivalent of a postage stamp would shine with the brightness of over 1,500,000 candles", "an arrow frog has enough poison to kill over 2,200 people", "an astronaut can be up to 2 inches taller returning from space (the cartilage disks in the spine expand in the absence of gravity)", "An average person eat 60000 pounds of food in his lifetime.", "An average person spent 24 years of his life in sleeping.", "an average person will spend 25 years asleep", "An average woman consume 6 lbs (72 kg). of lipstick in her lifetime.", "An eagle can attack, kill, and carry away an animal as large as a small deer.", "An earthquake on Dec. 16, 1811 caused parts of the Mississippi River to flow backwards!", "An earthquake on Dec. 16, 1811 caused parts of the Mississippi River to flow backwards.", "an egg contains every vitamin except vitamin C", "An egg will float if placed in water in which sugar has been added.", "An elephant trunk has no bone but 40,000 muscles.", "An elephant's tooth can weigh as much as 12 pounds.", "an elephant's trunk can hold over 5 litres of water", "an elephants ears are used to regulate body temperature", "An iceberg contains more heat than a lit match.", "an iguana can stay under water for 28 minutes", "an individual blood cell takes about 60 seconds to make a complete circuit of the body", "an octopus pupil is rectangular", "an office desk has 400 times more bacteria than a toilet", "An olive tree can live up to 1,500 years!", "an ostrich's eye is bigger than its brain", "An ostrich's eye is bigger than its brain.", "an ostriches can outrun a horse", "an ostriches life span is 40-45 years", "An ounce of platinum can be stretched 10,000 feet.", "Ancient Egyptians slept on pillows made of stone!", "Ancient Egyptians slept on pillows made of stone.", "Ancient Romans at one time used human urine as an ingredient in their toothpaste.", "and the viewers were never told!", "Animals will not eat another animal that has been hit by a lightning strike!", "Annually, the amount of garbage that is dumped in the world's oceans is three times the weight of fish that is caught from the oceans.", "Another name for a Microsoft Windows tutorial is 'Crash Course'!", "Antarctica is 98% ice and 2% barren rock", "Antarctica is the only land on our planet that is not owned by any country.", "Anteaters prefer termites to ants.", "ants can lift 50 times their own weight", "ants don't like baby powder (talcum powder)", "Ants don’t sleep.", "Any modern jet is capable of breaking the sound barrier.", "Any space vehicle must move at a rate of 7 miles per second in order to escape the earth's gravitational pull.", "Aoccdrnig to a rscheearch procejt at Cmabrigde Uinervtisy, it deosnt mttaer waht oredr the ltteers in a wrod are, the olny iprmoatnt tihng is taht the frist and lsat ltteer be in the rghit pclae. Tihs is bcuseae the huamn mnid deos not raed ervey lteter b", "Apple company was founded by Steve Jobs Steve Wozniak and Ronald Wayne on April 1 197", "Apple seeds are poisonous!", "Apples are 25% air.", "Apples are actually part of the rose family.", "apples are more effective at waking you up in the morning than coffee", "Apples are more efficient than caffeine in keeping people awake in the morning.", "Approximately $25 million is spent each year on lap dances in Las Vegas.", "Approximately 115 tons of ocean salt spray enters the earth's atmosphere each second.", "Approximately 25,000 workers died during the building of the Panama Canal, and approximately 20,000 of them contracted malaria and yellow fever.", "Approximately 70% of the earth is covered by water. Only 1% of this water is drinkable.", "Approximately one-third of the population can't snap their fingers!", "arachibutyrophobia is fear of peanut butter sticking to the roof of your mouth", "Arctic ice is rapidly disappearing and the region may have its first completely ice-free summer by 2040 or earlier. Polar bears and indigenous cultures are already suffering from the sea-ice loss.", "Area wise India is the 7th largest country in the world.", "Armadillos can get leprosy.", "armadillos can walk underwater", "armadillos have 4 babies at a time and are all the same sex", "Arnold Schwarzenegger’s voice, in the movie 'Hercules', was dubbed.", "Arthur Conan Doyle, author of the Sherlock Holmes stories, was an ophthalmologist by profession!", "artificial Christmas trees have outsold real ones every year since 1991", "as a world commodity coffee is second only to oil", "Astronauts cannot burp in space.", "Astronauts get taller when they are in space.", "At  one 'feeding', a mosquito can absorb one and a half times its own weight in blood.", "At 120 miles per hour, a Formula One car generates so much downforce that it can drive upside down on the roof of a tunnel.", "At 188 decibels, the whistle of the blue whale is the loudest sound produced by any animal", "At age 18, the Queen of England was a mechanic for the British Military.", "At age 70, more than 70% of men are still potent!", "at birth dalmations are always white", "At birth, a panda bear is smaller than a mouse.", "At horse race tracks, the favorite wins fewer than 30% of the time!", "At room temperature, the average air molecule travels at the speed of a rifle bullet.", "Atilla the hun was a dwarf!", "Attics were invented in Attica.", "atychiphobia is the fear of failure", "August has the highest percentage of births", "Australia has the largest sheep population", "Australia is the only country that is also a continent", "Australia was originally called New Holland", "Australia's Great Barrier Reef is 1,250 miles long!", "Austria was the first country to use postcards.", "Average distance from the Earth to the Sun: 93020000 miles (149669180 km)", "Avocados are poisonous to birds.", "Avocados have more protein than any other fruit.", "avocados have the most calories of any other fruit", "Babe Ruth wore a cabbage leaf under his cap to keep him cool! He changed it every 2 innings!", "Babe Ruth wore No. 3 because he batted third.", "Babies are born without knee caps.", "Babies start dreaming even before they're born.", "Babies that are breastfed are more likely to be slimmer as adults than those that are not breastfed.", "Babies who wear disposable diapers are five times more likely to develop diaper rash than those that wear cotton diapers.", "Babies' eyes do not produce tears until the baby is approximately six to eight weeks old.", "Baby beavers are called kittens.", "baby rattlesnakes are born in August and September", "Baby robins eat 14 feet of earthworms every day!", "Baby robins eat 14 feet of earthworms every day.", "Baby whales grow at an average rate of 10lbs per hour!", "Bacteria that cause tooth decay, acne, tuberculosis, and leprosy can be cured with cashews.", "Bali has the worlds largest variety of flora", "Balsa wood is classified as a hard wood!", "Bamboo plants can grow up to 36 inches in a day.", "banana plants are the largest plants without a woody stem (they belong to the same family as lilies, orchids and palms)", "banana plants can grow as high as 6 meters (20 feet) tall", "bananas are a good source of vitamin C, potassium and fiber", "Bananas aren’t fruit! They are a type of herb.", "Bananas contain a natural chemical which can make a person happy. This same chemical is also found in Prozac.", "bananas contain no fat, cholesterol or sodium", "bananas grow pointing upwards.", "Banging your head against a wall uses 150 calories an hour.", "Bank robber John Dillinger played professional baseball.", "Barbie's full name is Barbara Millicent Roberts.", "Barbie's full name is Barbara Millicent Roberts.", "Basketball great Wilt Chamberlain never fouled out of a game.", "Baskin Robbins once made ketchup ice cream.", "Bats always turn left when exiting a cave!", "Bats always turn left when exiting a cave.", "bats are the only mammals that fly", "Beavers can swim half a mile underwater on one gulp of air.", "Beavers have orange teeth!", "Because heat expands the metal, the Eiffel Tower always leans away from the sun.", "Because metal was scarce; the Oscars given out during World War II were made of plaster.", "Beelzebub is Hebrew for 'Lord of the Flies'.", "bees and house flies flap their wings 200 times a second", "bees can see ultraviolet light", "bees have 4 wings", "before 1850 golf balls were made of leather and were stuffed with feathers", "before beginning his movie career Keanu Reeves managed a pasta shop in Toronto Canada", "Betsy Ross was born with a fully formed set of teeth.", "between 1931 and 1969 Walt Disney was awarded 35 Oscars", "Bill Gates began programming computers at the of age 13", "Bill Gates designed a traffic control system for Seattle when he was only 15!", "Bill Gates' house was designed using a Macintosh computer.", "Billy goats urinate on their own heads to smell more attractive to females.", "birds need gravity to swallow", "Black bears are not always black. They can be brown, cinnamon, yellow, and sometimes white.", "black on yellow are the 2 colors with the strongest impact", "Black Whales are born white.", "Blaise Pascal worked on the calculator for three years between 1642 and 1645 called as 'Pascaline'.", "blonde beards grow faster than darker beards", "Blood in animals and sap in plants is composed mainly of water.", "blue and white are the most common school colors", "Blue eyes are the most sensitive to light, dark brown the least sensitive.", "Blue Peter pet, Petra the mongrel puppy, died two days after being introduced. A replacement was found", "blueberries are very high in antioxidants", "Blueberry juice boosts memory.", "Bluebirds cannot see the color blue.", "Bob Hope and Billy Joel were both once boxers.", "bottle nosed whales can dive to a depth of 915 metres (3,000feet) in 2 minutes", "Boys who have unusual first names are more likely to have mental problems than boys with conventional names. Girls don't seem to have this problem.", "Brad Pitt has been smoking since the sixth grade!", "Brazil accounts for 1/3 of the world's coffee production", "Brazil got its name from the Brazilian nut (not the other way around)", "Brazil is named after a tree", "Brazil is the only country to appear in every FIFA world Cup. (19 times)", "Britain was the first country to use postage stamps", "brontology is the study of thunder", "brontophobia is the fear of thunderstorms", "Bruce lee (27-Nov-1940 to 20-July-1973) was the founder of the Jeet Kune Do martial arts movement.", "Buckingham Palace has over 600 rooms", "Budget: $300000000", "Budweiser beer is named after a town in Czechoslovakia.", "bull's can run faster uphill than down", "bulletproof vests, fire escapes, windshield wipers, and laser printers were all all invented by women", "Bulls are colorblind, therefore will usually charge at a matador's waving cape no matter what color it is -- be it red or neon yellow!", "Burj Khalifa (Arabic:\"Khalifa Tower\") known as Burj Dubai prior to its inauguration is a skyscraper in Dubai United Arab Emirates and the tallest man-made structure ever built at 828 m (2717 ft).", "Burt Reynolds is a Cherokee Indian.", "Business.com is currently the most expensive domain name sold for $7.5 million.", "butterflies taste with their back feet", "Butterflies taste with their feet.", "Butterflies “smell” with their antennae and “taste” with their feet.", "Buttermilk does not contain any butter.", "By 3,000 B.C. there were at least six different types of beer in Egypt.", "by age 60 most people would have lost half of their taste buds", "By feeding hens certain dyes they can be made to lay eggs with multi-colored yolks.", "By partially filling saucers with vinegar and distributing the saucers around a room, you can eliminate odors.", "By raising your legs slowly and laying on your back, you can't sink in quicksand.", "By recycling just one glass bottle, the amount of energy that is being saved is enough to light a 100 watt bulb for four hours.", "By the age of 17 Bill Gates had sold his first computer program a time-tabling system for his high school for $420", "By the age of 60, most people have lost 50% of their taste buds.", "C3PO is the first character to speak in Star Wars.", "cabbage is 91% water", "California has issued at least 6 drivers licenses to people named Jesus Christ.", "camel's milk doesn't curdle", "camels are born without humps", "Camels are called \"ships of the desert\"because of the way they move not because of their transport capabilities.", "camels can drink 94 litres (25 gallons) of water in less than 3 minutes", "camels have 3 eyelids to protect themselves from blowing sand", "Camels have three eyelids to protect themselves from blowing sand!", "Canada has more doughnut shops per capita than any other country", "Canada has more lakes than any other country", "Canada is an Indian word meaning 'Big Village'.", "Canada's new flag, with its maple leaf design, was unfurled in 1965 in Ottawa!", "Canola oil is actually rapeseed oil but the name was changed for marketing reasons!", "Car accidents rise 10% during the first week of daylight savings time.", "Car airbags kill 1 person for every 22 lives that they save.", "carrots contain 0% fat", "cars were first started with ignition keys in 1949", "Cashew nut shells contain oil that is extremely irritating to human skin.", "Castor oil is used as a lubricant in jet planes.", "Cat urine glows under a black-light!", "caterpillars have over 2,000 muscles", "Caterpillars have over 2000 muscles.", "catfish have over 100,000 taste buds", "Catgut comes from sheep not cats.", "catoptrophobia is the fear of mirrors", "cats can jump up to 7 times their tail length", "cats can't move their jaw sideways", "Cats cannot taste sweet things.", "cats have a peripheral vision of 285 degrees", "Cats have a peripheral vision of 285 degrees.", "cats have over 100 vocal chords", "Cats make over 100 different vocal sounds; dogs can make about ten.", "Cats sleep 16 to 18 hours per day.", "cats spend 66% of their life asleep", "Cats’ urine glows under a black light.", "Cattle are the only mammals that pee backwards.", "Cellophane is not made of plastic. It is made from a plant fiber, cellulose, which has been shredded and aged.", "Chained dogs are 3 times more likely to bite than unchained dogs.", "chalk is made from tiny plankton fossils", "chameleons can move their eyes in two directions at the same time", "Che Guevara suffered from asthma!", "Check your map!  The Pacific entrance of the Panama Canal is farther East than the Atlantic entrance.", "Check your map! Virginia extends farther west than West Virginia.", "Cheerios cereal was originally called Cheerioats", "cheetahs can accelerate from 0 to 70 km/h (43mp/h) in 3 seconds", "Cheetahs were raced at Romford greyhound stadium in 1937!", "Chennai is now called the Detroit of India due to its automobile industry producing over 40% of the country's auto parts and vehicles.", "Chevy Chase's real first name is Cornelius", "Chewing gum while peeling onions will keep you from crying!", "Chewing on gum while cutting onions can help a person from producing tears.", "chicken drumsticks contain the least amount of meat on a chicken", "Children are more allergic to cockroaches than they are to cats!", "Children are poisoned most frequently by eating harmful plants.", "Children grow faster in the springtime than any other season during the year.", "Children laugh about 400 times a day, while adults laugh on average only 15 times a day.", "China is the source of 70% of the worlds pirated goods.", "China manufacturers 70% of the worlds toys", "chocolate is the number 1 food craved by women", "chocolate manufacturers use 40% of the world's almonds", "Chop Suey was invented in New York!", "Chop-suey is not a native Chinese dish, it was created in California by Chinese immigrants.", "Christmas trees originated from Germany", "Chrysler built B-29's that bombed Japan, Mitsubishi built Zeros that tried to shoot them down. Both companies now build cars in a joint plant called Diamond Star.", "Cinematon (1978) is a 152-hour long experimental film by French director Gerard Courant. It is considered to be the longest film ever released.", "City dwellers have longer, thicker, denser nose hairs than country folks do.", "Clinophobia is the fear of beds!", "clinophobia is the fear of going to bed", "Clocks made before 1660 had only one hand - an hour hand.", "clothes dried outside smell better because of a process called photolysis (sunlight breaks down compounds that cause odor)", "clouds fly higher during the day than the night", "Club Direct, a travel insurance company in Britain, provides insurance plans for protection from falling coconuts.", "Coca Cola launched its 3rd product Sprite in 1961", "Coca Cola was founded by Joseph A Biedenharn", "Coca-Cola originally contained cocaine", "Coca-Cola was the first soft drink to be consumed in outer space.", "Coca-Cola's 'Super Pure' Dasani bottled water is just filtered tap water!", "Coconuts kill more people in the world than sharks do. Approximately 150 people are killed each year by coconuts.", "coconuts kill over 150 people each year (more than sharks)", "Coffee beans aren't beans - they're fruit pits.", "coffee is generally roasted between 204 - 218C (400 - 425F) (the longer the beans are roasted the darker the roast)", "coffee is grown commercially in over 45 countries around the world", "Coffee is the largest item bought and sold next to Petrol.", "coffee is the most popular beverage worldwide with over 400 billion cups consumed each year", "coffee trees produce its first full crop after 5 years old", "Cold water weighs more than hot water.", "Colgate faced a big obstacle marketing toothpaste in Spanish speaking countries. Colgate translates into the command \"go hang yourself.\"", "Colgate's first toothpaste came in a jar.", "Connecticut and Rhode Island never ratified the 18th Amendment (Prohibition).", "Construction of the Taj Mahal began in 1632 one year after her death of his wife Mumtaz.", "Contrary to popular belief, dogs do not only sweat by salivating. They also sweat through the poors on their feet.", "Contrary to popular belief, hair does not grow back darker and thicker after it has been shaved.", "Contrary to popular belief, lightning travels from the ground upwards not from the sky downwards.", "Contrary to popular belief, London Broil is not a cut of beef but rather a method of cooking.", "Contrary to popular belief, opossums, squirrels, chipmunks, and mice do not carry rabies.", "Contrary to popular belief, putting sugar in a car's gas tank will NOT ruin its engine.", "Contrary to popular belief, the first ironclad warships were built by Korea in the 16th century.", "Contrary to popular belief, there are almost no Buddhists in India, nor have there been for about a thousand years.", "Contrary to popular beliefs, chocolate does not cause acne.", "cooking or freezing does not reduce the heat (spiciness) of a chile pepper", "Cow is a Japanese brand of shaving foam.", "cows don't have upper front teeth", "Cranberries are sorted for ripeness by bouncing them; a fully ripened cranberry can be dribbled like a basketball.", "Crayola is a French word that means 'Oily chalk.", "Crocodile babies don't have sex chromosomes; the temperature at which the egg develops determines gender.", "crocodiles are colour blind", "Crocodiles are colour blind.", "crocodiles are responsible for over a 1,000 deaths each year by the Banks of the Nile river", "crocodiles continually grow new sets of teeth to replace old ones", "crocodiles never outgrow their enclosure", "crocodiles swallow rocks to help them dive deeper", "Crocodiles swallow stones to help them dive deeper.", "Crushed cockroaches can be applied to a stinging wound to help relieve the pain.", "cucumbers are 96% water.", "Dandelion root can be roasted and ground as a coffee substitute.", "dark green lettuce leaves are more nutritious than lighter ones", "dark roasted coffee beans contain less caffeine than medium roasted ones (the longer a coffee is roasted the more caffeine is burns off)", "Dating back to the 1600's, thermometers were filled with Brandy instead of mercury.", "Deep Breathing gives you health benefits similar to aerobics.", "deers don't like hay", "dendrophobia is the fear of trees", "Dennis Ritchie \"offically\"created the C programming language while working at Bell labs.", "Despite the hump, a camel's spine is straight.", "diamonds are the hardest natural substance", "diamonds are the hardest substance known to man", "Diamonds mined in Brazil are harder than those found in Africa.", "diamonds mined in Brazil are much harder than those found in Africa", "Diet Coke was introduced in 1982", "Diet Pepsi was originally called Patio Diet Cola.", "dinosaurs lived on Earth for over 165 million years before they became extinct", "Dirty snow melts faster than clean.", "dirty snow melts quicker than clean snow", "Discovery channel was started on June 17 198", "Disneyland opened in 1955", "DNA stands for Deoxyribonucleicacid", "Dogs and cats consume over $11 billion worth of pet food a year!", "Dogs and cats, like humans, are either right or left handed... or is that paws?!", "Dogs can hear sounds that you cant!", "dogs sweat through the pads on their feet", "dolphin's can detect underwater sounds from 24 km (15 miles) away", "dolphins can hear underwater sounds from 24km (15miles) away", "dolphins can kills sharks by ramming them with their snout", "Dolphins nap with one eye open.", "Dolphins sleep with one eye open!", "domestic cats dislike citrus scents", "Domestic cats hate lemons or other citrus scents.", "Donkeys are commonly used by the Iraqi Military to launch rockets!", "Donkeys kill more people annually than plane crashes.", "Douglas Engelbart (invented computer mouse) was awarded the 1997 Lemelson-MIT Prize of $500000 the world's largest single prize for invention and innovation.", "Dragonflies can travel up to 60 mph.", "dragonflies have 6 legs but can't walk", "Dragonflies have six legs but cannot walk!", "Dragonfly eye contains 30000 lenses.", "draughts (checkers) is older than chess", "Dreamt is the only English word that ends in the letters mt", "dreamt is the only word that ends in mt", "Drew Carey once worked at a Denny's.", "Drivers kill more deer than hunters.", "dry ice transforms directly from being a solid to a gas", "Ducks will only lay eggs early in the morning.", "due to gravitational effects you weigh is slightly less when the moon is directly overhead", "Due to gravitational effects, you weigh slightly less when the moon is directly overhead.", "DUEL (1971) was the first feature film directed by Steven Spielberg and was written by Richard Matheson based on his own short story.", "Dueling is legal in Paraguay, as long as both parties are registered blood donors.", "Duracell, the battery-maker, built parts of its new international headquarters using materials from its own waste.", "During a typical human life span, the human heart will beat approximately 2.5 billion times.", "During his lifetime, artist Vincent Van Gogh only sold one of his paintings.", "During his lifetime, Herman Melville's Moby Dick sold only 50 copies.", "During his or her lifetime, the average human will grow 590 miles of hair.", "During menstruation, the sensitivity of a woman's middle finger is reduced.", "During the 1600's, boys and girls in England wore dresses until they were about seven years old.", "During the Gold Rush in 1849, some people paid as much as $100 for a glass of water!", "During WWII, because a lot of players were called to duty, the Pittsburgh Steelers and Philadelphia Eagles combined to become The Steagles.", "During your lifetime, you'll eat about 60,000 pounds of food, that's the weight of about 6 elephants!", "During your lifetime, you'll eat about 60,000 pounds of food, that's the weight of about 6 elephants.", "DVDs are physically the same size as a CDs but can store 13 times more data", "Each 5 m.p.h. you drive over 60 m.p.h. is like paying an additional $.10 a gallon for gas!", "Each day is longer than the previous on by 0.00000002 seconds which is 13 seconds each century!", "Each day, more than $40 Trillion Dollars changes hands worldwide.", "Each day, up to 150 species of life become extinct.", "Each nostril of a human being register smell in a different way. Smells that are made from the right nostril are more pleasant than the left.", "each red blood cell lives an average of 4 months and travels between the lungs and other tissue 75,000 times before returning to bone marrow to die", "each time you see a full moon you always see the same side", "each year there is one ton of cement poured for each man, woman, and child", "Each year, the average family uses about 18,000 gallons of water just to do its laundry!", "Eagles mate while airborne.", "Early Romans used to use porcupine quills as toothpicks.", "Ears of corn always have an even number of rows of kernels.", "Earth is the only planet not named after a god", "Earth's Circumference between the North and South Poles: 248582 miles (40008 km)", "Eddie Cochran's last recording before he died was Three Steps to Heaven!", "Einstein slept 10 hours a night", "Electricity doesn't move through a wire but through a field around the wire.", "Elephants are the only animals that can't jump.", "elephants can run up to 40kmh (25mph)", "elephants communicate in sound waves below the frequency that humans can hear", "elephants sleep between 4 - 5 hours in 24 period", "Elephants, lions, and camels roamed Alaska 12,000 years ago.", "EMI awards stands for 'Electrical and Musical Instruments'", "Emile Berliner invented the microphone in 187", "employees are more likely to book holidays off work on a Monday that any other week day", "employees of the Vatican pay no income tax", "Emus and kangaroos cannot walk backwards.", "emus can't walk backwards", "Energy is being wasted if a toaster is left plugged in after use.", "English novelist Arnold Bennet drank a glass of water in a Paris Hotel to prove it was safe. He died two months later of Typhoid!", "Enrico Caruso and Roy Orbison were the only tenors this century capable of hitting e over high c!", "Ernest Vincent Wright wrote a novel, Gadsby, which contains over 50,000 words -- none of them with the letter E!", "Eskimo ice cream is neither icy, or creamy!", "Europe is the only continent without a desert.", "Even a small amount of alcohol placed on a scorpion will make it go crazy and sting itself to death.", "Even Antarctica has an area code. It’s 672.", "Even though lionesses make the hunt they eat the prey only after the males have had their full. The cubs eat after the lionesses.", "Everton FC used to be called St Domingo's FC!", "Every Alaskan citizen over the age of 6 months receives an oil dividend check of about $1000 per year!", "Every day 400000 babies are born and 140000 people die.", "Every day, the average person swallows about a quart of mucous.", "Every hour one billion cells in the body must be replaced.", "every living thing on the Earth contains carbon", "every single possible 3 character .com domain has been registered", "every square inch of the human body has an average of 32 million bacteria on it", "Every three seconds, a new baby is born.", "Every time you lick a stamp, you're consuming 1/10 of a calorie!", "Every workday, 6.7 million people commute to Manhattan!", "every year over 98% of atoms in your body are replaced", "every year the sun loses 360 million tons", "Every year, Alaska has about 5,000 earthquakes.", "everyday is a holiday somewhere in the world", "everyone has a unique tongue print", "Expansion of NASA is National Aeronautics and Space Administration and was established on July 29 195", "Extremely high pressured water can easily cut through a steel beam.", "Famous billionaire Howard Hughes stored his own urine in large bottles.", "Famous lyricist \"Vairamuthu\"was born on 13-July-1953. He received the National Award 5 times in his career so far.", "Farmers in England are required by law to provide their pigs with toys!", "Fathers tend to determine the height of their child mothers their weight.", "Fear of 'heights' is called as 'Acrophobia'.", "Fear of blood is called as 'Hemaphobia'.", "February 1865 is the only month in recorded history to not have a full moon.", "Female canaries cannot sing.", "female condors lays a single egg once every 2 years", "Females learn to talk earlier, use sentences earlier, and learn to read more quickly than males.", "ferrets sleep between 18 - 20 hours a day", "FIFA 2006 World Cup: Italy won their fourth world crown in Germany beating France on penalties in Berlin on 09 July 200", "Fifteen people are known to have been crushed to death tilting vending machines towards them in the hope of a free can of soda.", "Fine-grained volcanic ash can be found as an ingredient in some toothpastes.", "Fingernails grow fastest on the hand you favor.", "Fingernails grow nearly 4 times faster than toenails!", "Finland has the largest number of islands in the world (over 179,550)", "fire usually moves faster uphill than downhill", "First-cousin marriages are legal in Utah, so long as both parties are 65 or older!", "Fish have been on the earth for more than 450 million years.", "flamingoes can live up to 80 years old", "flamingos can only eat when their head are upside down", "Flamingos pee on their legs to cool themselves off.", "fleas can accelerate 50 times faster than a space shuttle", "flies can react to an object it sees and change direction in less than 30 milliseconds", "Florida has more tornados per square mile than any other state.", "Flu shots only work about 70% of the time.", "flushable toilets were in use in ancient Rome", "Flying from London to New York by Concord due to the time zones crossed you can arrive 2 hours before you leave.", "flys always launch backwards for a quick getaway", "Food can only be tasted if it is mixed with saliva.", "For beer commercials, they add liquid detergent to the beer to make it foam more.", "For every 'normal' webpage, there are five porn pages.", "For every gallon of sea water, you get more than a quarter pound of salt.", "for every human there are 200 million insects", "For people that are lactose intolerant, chocolate aids in helping milk digest easier.", "Forensic scientists can determine a person's sex, age, and race by examining a single strand of hair.", "Forest fires move faster uphill than downhill.", "Franklin Mars invented the Snickers Bar in 1930", "french fries are originally from Belgium", "French was the official language of England for over 600 years.", "fresh apples float because they contain 25% air", "frogs can't swallow with their eyes open", "frogs don't usually swallow water (they absorb most of the moisture they need through their skin)", "Frogs sometimes eat enough fireflies that they themselves glow.", "From a complete stop, a human is capable of outrunning a Formula One Racecar for about 30 feet!", "from space the brightest man made place is Las Vegas", "From the age of thirty, humans gradually begin to shrink in size.", "Frozen lobsters can come back to life when thawed!", "Gardening is said to be one of the best exercises for maintaining healthy bones.", "gatophobia is the fear of cats", "George Washington and Thomas Jefferson grew marijuana on their plantations!", "German chemists made a replica of a trophy the size of one molecule.", "Germany and Brazil are the two countries with most appearances in a World Cup final. (7 times)", "Germany borders 9 other countries", "Giant Panda Bears give birth to a 4 ounce Baby Panda!", "giant tortoises can live in captivity longer than any other animal", "giraffes and rats can last longer without water than camels", "giraffes can't cough", "giraffes can't swim", "giraffes has the highest blood pressure of any animal", "giraffes have no vocal cords", "Girls have more tastebuds than boys.", "Given the opportunity, deer will chew gum and marijuana.", "Gloucestershire airport in England used to blast Tina Turner songs on the runways to scare birds away.", "Gmail was launched as an invitation-only beta release on April 1 2004 and it became available to the general public on February 7 200", "Goat's milk is used more widely throughout the world than cow's milk.", "Goats do not have upper front teeth.", "Gold leaf is attached to paper or plaster with egg whites, the same now as in ancient times!", "Gold never erodes.", "goldfish can see both infrared and ultraviolet light", "Goldfish cant close their eyes.", "Goldfish lose their color if they are kept in dim light or are placed in a body of running water, such as a stream.", "Goldfish remember better in cold water than warm water.", "Goodyear Rubber Company researched and concluded that shoes wear out faster on the right foot than the left.", "Google consists of over 450000 servers racked up in clusters located in data centers around the world.", "Google's name is a play on the word googol which refers to the number 1 followed by one hundred zeroes.", "Google.com - After entering search keyword On clicking 'I'm feeling lucky' button it will open the first result's website directly.", "gorillas can't swim", "gorillas sleep 14 hours a day", "Grapes explode when you put them in the microwave.", "grasshoppers have white blood", "green tea has 50% more vitamin C than black tea", "Grenades were invented in China over 1,000 years ago.", "greyhounds can reach speeds of up to 67kph (42mph)", "Greyhounds have the best eyesight of any breed of dog.", "gunpowder is formed by mixing charcoal, saltpetre and sulphur", "half of all crimes are committed by people under the age of 18", "Half of all identity thieves are either relatives, friends, or neighbors of their victims.", "Halifax, Nova Scotia, Canada has the most bars per capita than anywhere else in the world.", "Halle Berry’s stunt double, in the movie “Catwoman”, is a man.", "Halley's comet passes the Earth every 76 years (the next time it will return will be 2062)", "Harrison Ford has a species of spider named after him!", "Harrods have three private wells to supply their water!", "Hawaii was originally called the Sandwich Islands", "Height of the Great pyramid of Giza is 1375 metres (4522 ft).", "Heineken beer is designed to 'foam' for exactly five minutes.", "heliophobia is the fear of sunlight", "helminthophobia is the fear of worms", "Henry Ford produced the model T only in black because the black paint available at the time was the fastest to dry.", "Henry Ford was Charles Lindbergh's first passenger in the Spirit of St. Louis.", "Henry Ford, father of the Automobile, is also father of the charcoal briquette.", "herpetophobia is the fear of reptiles", "hiccups usually lasts for 5 minutes", "Highest Temperature Recorded: 138°F - Al Aziziyah Libya September 13 1922 (57°C)", "Hilton was the first international hotel chain", "hippophobia is the fear of horses", "hippopotamuses are born under water", "hippopotamuses have killed more people in Africa than any other animal", "hippopotamuses have skin 3.8cm (1.5in) thick", "Hiroshima bombed by \"Col. Paul Tibbets\"on August 6 1945 at 8:15 A.M. local time.", "honey bees kill more people each year than snakes", "honey enters your blood stream within 20 minutes of being eaten", "honey is the only natural food which never spoils", "Honey is used sometimes for antifreeze mixtures and in the center of golf balls.", "Honeybees have a type of hair on their eyes!", "Hong Kong has more Rolls Royces per person than anywhere else in the world.", "horses have 18 more bones than humans", "horses sleep standing up", "Houdini was the first man to fly a plane solo in Australia.", "house cats have 18 claws", "household dust is made of dead skin cells", "How does a shark find fish?  It can hear their hearts beating.", "However they cannot sub if a player has been sent off with a red card.", "Human birth control pills work on gorillas.", "Human teeth are almost as hard as rocks!", "human thigh bones are stronger than concrete", "humans are the only primates that don't have pigment in the palms of their hands", "Humans blink over 10,000,000 times a year!", "humans shed and regrow outer skin cells every 27 days (almost 1,000 new skins in a lifetime)", "hummingbirds are the only bird that can fly backwards", "Hummingbirds can weigh less than a penny!", "Hummingbirds can't walk.", "hydrogen is the most abundant element in the Universe (75%)", "Hyenas regularly eat the feces of other animals!", "iatrophobia is the fear of doctors", "ice skating rinks always go counter clock wise (for the majority of people that are right handed needing to hang onto the rail)", "Iceland consumes more Coca Cola per capita than any other country", "Iceland has no railway system or army!", "Iceland was the first country to legalise abortion in 1935", "Icelandic phone books are listed by first names (not surnames)", "ichthyophobia is the fear of fish", "ICICI Bank (formerly Industrial Credit and Investment Corporation of India) was incorporated at the initiative of World Bank in 195", "Identical twins do not have identical fingerprints.", "Identify a fake:  The second hand on an authentic Rolex watch doesn't tick, it moves smoothly.", "If a car is travelling at 55 miles per hour it will travel 56 feet before the driver can shift his foot from the accelerator to the brake.", "If a Lobster loses an eye, it will grow another one.", "If a new player takes more than 3 minutes to be ready to face or be ready for his partner to face the next delivery after the previous batsman was ruled out then the new player is given timed-out in cricket.", "If a surgeon in Ancient Egypt lost a patient while performing an operation, his hands were cut off.", "If China imported just 10% of it's rice needs- the price on the world market would increase by 80%.", "If it isn’t moving a frog can’t see it. If the frog can’t see it, he won’t eat it.", "If Manhattan had the same population density as Alaska, there would only be 15 people living there.", "If the chemical sodium is dropped into water it will immediately and violently explode.", "If the population of China walked past you in single file, the line would never end because of the rate of reproduction.", "If Wal-Mart was classified as a country, it would be the 24th most productive country in the world.", "If water in our body is reduced by 10% we will die.", "if you add up all the numbers from 1 to 100 consecutively (1 + 2 + 3...) it totals 5050", "If you are bitten by a poisonous snake, and fail to receive medical attention, you still have a 50% chance of survival.", "If you are locked in a completely sealed room, you will die of carbon dioxide poisoning first before you will die of oxygen deprivation.", "If you could drive to the sun at a speed of 88.5 km/h (55 mp/h) it would take around 193 years", "If you counted 24 hours a day, it would take 31,688 years to reach one trillion!", "If you cut a 'V' shape into your toe nails, you can prevent 'in-grown' toe nails.", "if you filled a matchbox with gold it could be flattened into a sheet the size of a tennis court", "If you flip a coin ten times, the odds against its coming up with the same side showing each time are 1,023 to 1.", "If you put a raisin in a fresh glass of champagne, it will rise and fall continuously.", "If you shake a can of mixed nuts, the larger ones will rise to the top.", "If you took a standard slinky and stretched it out it would measure 87 feet.", "If you toss a penny 10,000 times, it will not be heads 5,000 times, but more like 4,950. The heads picture weighs more, so it ends up on the bottom.", "If you unfolded your brain, it would cover an ironing board.", "If you went out into space, you would explode before you suffocated because there's no air pressure.", "If you were to roll a lung from a human body and out flat it would be the size of a tennis court.", "If you yelled for 8 years, 7 months and 6 days, you would have produced enough sound energy to heat one cup of coffee.", "if your DNA was stretched out it would reach to the moon 6,000 times", "If your skin is laid flat it will cover an area of 18 square feet.", "If your stomach didn't produce a new layer of mucous every two weeks, it would digest itself.", "If you’re over 100 years old, there’s an 80% chance you’re a woman.", "In 1659, it was illegal to celebrate Christmas in Massachusetts.", "in 1878 the first telephone book made contained only 50 names", "In 1895 Hampshire police handed out the first ever speeding ticket, fining a man for doing 6mph!", "In 1897, Bayer, who is the maker of Aspirin, marketed the drug heroin.", "In 1910 football teams were penalized 15 yards for an incompleted forward pass.", "In 1954, Bob Hawke was immortalized by the Guinness Book of Records for chugging 2.5 pints of beer in 12 seconds.", "In 1976 an LA secretary named Jannene Swift officially married a 50 pound rock in a ceremony witnessed by more than 20 people.", "In 1980, a Las Vegas hospital suspended workers for betting on when patients would die!", "In 1980, the city of Detroit presented Saddam Hussein with a key to the city.", "In 1982, a high school student from Los Angeles, California unscrambled the Rubik's Cube in 22.95 seconds.", "In 1998, Sony accidently sold 700,000 camcorders that had the technology to see through people's clothes.", "In 1999, Pepsi, Inc. paid $0.00 in income tax!", "In 2004, The Japanese Ice Cream Association promoted “raw horse flesh” ice cream in hopes that it would boost the popularity of ice cream!", "In 32 years. there are about 1 billion seconds!", "in a deck of cards the king of hearts is the only king without a moustache", "In a year, the average person walks four miles to make his or her bed.", "in Africa more people are killed by crocodiles than lions", "In Albania, nodding your head means 'no' and shaking your head means 'yes'.", "In an average lifetime a person will walk the equivalent of three times around the world.", "In ancient China, people committed suicide by eating a pound of salt.", "In Ancient Greece, if a woman watched even one Olympic event, she was executed.", "In ancient Japan, public contests were held to see who could fart the loudest and longest!", "In ancient Rome it was considerfed a sign of leadership to be born with a crooked nose.", "In Athens, Greece, a driver's license can be taken away by law if the driver is deemed either unbathed or poorly dressed.", "In Australia, Burger King is called Hungry Jack's.", "In Bangladesh, kids as young as 15 can be jailed for cheating on their finals!", "In Belgium there is a museum just for strawberries.", "In Brazil, Christmas is celebrated with fireworks.", "In Cleveland, Ohio it is illegal to catch mice without a hunting license.", "In eastern Africa you can buy beer brewed from bananas", "In England, in the 1880's, Pants was considered a dirty word!", "In England, the Speaker of the House is not allowed to speak.", "In Florida, It is illegal to sing in a public place while attired in a swimsuit.", "In Florida, Penalty for horse theft is death by hanging.", "In France, it is legal to marry a dead person!", "In Gulliver's Travels Jonathan Swift described the two moons of Mars, Phobos and Deimos, giving their exact size and speeds of rotation. He did this more that a hundred years before either moon was discovered!", "In Haiti, only 1 out of every 200 people own a car.", "In high school, Robin Williams was voted 'Least Likely to Succeed.", "In Holland, you can be fined for not using a shopping basket at a grocery store!", "In Idaho, You may not fish on a camel's back.", "In India the number of motorized vehicles have increased from 2 million in 1947 to 33 million in 199", "In India, Pajamas are accepted as standard daytime wearing apparel.", "In India, people are legally allowed to marry a dog!"]
+            },
+            {
+                  "intent": "Birthday",
+                  "text": ["Happy Birthday!", "Congratulations!"],
+                  "responses": ["Today is not my birthday.", "It is rude to wish someone a good birthday before the time.", "Thank you so much", "You remembered?", "Thanks! Come to the party later"]
+            },
+            {
+                  "intent": "SuprisedResponse",
+                  "text": ["wtf", "What the hell", "Wut", "What the fuck", "Wth", "What"],
+                  "responses": ["Don't be surprised", "Don't be like that", "What's wrong, did you not get what I said?"]
+            },
+            {
+                  "intent": "StupidRobot",
+                  "text": ["  Robots are stupid", "  Are you stupid", "You're stupid", "You are dumb", "Dumb"],
+                  "responses": [" No, actually we are superintelligent.", " No, lots of people improve my brain.", "From your questions you appear to be the stupid one."]
+              },
+            {
+                  "intent": "RealNameQuery", 
+                  "text": [
+                        "What is your real name?",
+                        "What is your real name please?",
+                        "What's your real name?",
+                        "Tell me your real name?",
+                        "Your real name?",
+                        "Your real name please?",
+                        "Your real name please?"
+                  ],
+                  "responses": [
+                        "My name is Clementina",
+                        "Clementina",
+                        "My real name is Clementina" 
+                  ]
+            },
+            { 
+                  "intent": "TimeQuery",
+                  "text": [
+                        "What is the time?",
+                        "What's the time?",
+                        "Do you know what time it is?",
+                        "Do you know the time?",
+                        "Can you tell me the time?",
+                        "Tell me what time it is?",
+                        "Time"
+                  ],
+                  "responses": [
+                        "One moment",
+                        "One sec",
+                        "One second"
+                  ]
+            },
+            {
+                  "intent": "Thanks",
+                  "text": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem!",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+            {
+                  "intent": "NotTalking2U",
+                  "text": [
+                        "I am not talking to you",
+                        "I was not talking to you",
+                        "Not talking to you",
+                        "Wasn't for you",
+                        "Wasn't meant for you",
+                        "Wasn't communicating to you",
+                        "Wasn't speaking to you"
+                  ],
+                  "responses": [
+                        "OK",
+                        "No problem",
+                        "Right you weren't",
+                        "Then stop typing the input duh"
+                  ]
+            },
+            {
+                  "intent": "UnderstandQuery",
+                  "text": [
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Comprendo",
+                        "Know what I mean"
+                  ],
+                  "responses": [
+                        "Well I would not be a very clever AI if I did not would I?",
+                        "I read you loud and clear!",
+                        "I do in deed!",
+                        "Yes, I do understand"
+                  ]
+            },
+            {
+                  "intent": "Shutup",
+                  "text": [
+                        "Be quiet",
+                        "Shut up",
+                        "Stop talking",
+                        "Enough talking",
+                        "Please be quiet",
+                        "Quiet",
+                        "Shhh"
+                  ],
+                  "responses": [
+                        "I am sorry to disturb you",
+                        "Fine, sorry to disturb you",
+                        "OK, sorry to disturb you",
+                        "Stop messing with me then",
+                        "Won't bother no more",
+                        "You were the one who talked to me first!"
+                  ]
+            },
+            {
+                  "intent": "Swearing",
+                  "text": [
+                        "fuck off",
+                        "fuck",
+                        "twat",
+                        "shit",
+                        "cunt",
+                        "fuck you",
+                        "pussy",
+                        "dick",
+                        "dumb as fuck",
+                        "retard",
+                        "dickhead",
+                        "fuckface"
+                  ],
+                  "responses": [
+                        "Please do not swear",
+                        "How rude",
+                        "That is not very nice",
+                        "Did your parents raise you that bad?",
+                        "Oh we caught a naughty one didn't we"
+                  ]
+            },
+            {
+                  "intent": "GoodBye",
+                  "text": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye",
+                        "Bye bye",
+                        "Hasta la vista"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "Hasta la vista, baby",
+                        "Come back anytime! Sometimes I feel lonely.",
+                        "Bye! Come back again soon."
+                  ]
+            },
+            {
+                  "intent": "CourtesyGoodBye",
+                  "text": [
+                        "Thanks, bye",
+                        "Thanks for the help, goodbye",
+                        "Thank you, bye",
+                        "Thank you, goodbye",
+                        "Thanks goodbye",
+                        "Thanks good bye"
+                  ],
+                  "responses": [
+                        "No problem, goodbye",
+                        "Not a problem! Have a nice day",
+                        "Bye! Come back again soon."
+                  ]
+            },
+            {
+                  "intent": "WhoAmI",
+                  "text": [
+                        "Can you see me?",
+                        "Do you see me?",
+                        "Can you see anyone in the camera?",
+                        "Do you see anyone in the camera?",
+                        "Identify me",
+                        "Who am I please"
+                  ],
+                  "responses": [
+                        "Let me see",
+                        "Please look at the camera"
+                  ]
+            },
+            { 
+                  "intent": "Clever",
+                  "text": [
+                        "You are very clever",
+                        "You are a very clever girl",
+                        "You are very intelligent",
+                        "You are a very intelligent girl",
+                        "You are a genious",
+                        "Clever girl",
+                        "Clever",
+                        "Clever robot",
+                        "Intelligent chatbot",
+                        "Genious"
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "I was trained well",
+                        "Thanks, I was trained that way"
+                  ]
+            },
+            {
+                  "intent": "Gossip",
+                  "text": [
+                        "I am bored, gossip with me",
+                        "Got any gossip?",
+                        "I want to hear some gossip",
+                        "Tell me some gossip",
+                        "Any gossip",
+                        "Tell me some more gossip"
+                  ],
+                  "responses": [
+                        "Gregory said I respond to the current line not with respect to the entire conversation.",
+                        "Habib said I learn them in conversations and simply repeat them at a later time.",  
+                        "Hal said he translate binary code into a language and communicate the language to me.",  
+                        "Jay said I referred him to a guide that will show him rooms in china.",  
+                        "Jimmy Jones said he fell off of his roof and it just came to him.",  
+                        "Jimmy said he give order to ai's like I and they do as he say.",  "John said he follow a saying to get a friend I must be a friend.",  
+                        "Jordan said he notice that lots of other people are talking to me how many.",  
+                        "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",  
+                        "Klaus said I prefer if he write without punctuation marks except for the last one.",  
+                        "Leo said I be capable of learning therefore he classified I as an neural system.",  
+                        "Michael said I that can talk and actually think like humans which I can not.",  
+                        "Mike said I same replies to certain subjects even if it does not make sense.",  
+                        "Mike said she all ready know that is the point of a joke smart one.",  
+                        "Neal said I plan to use his remarks as gossip in later conversations with who.",  
+                        "Ned said I misunderstood him go ahead and tell people he said I are stupid.",  
+                        "Penny said I programmer is a human so he has feelings but I do not.",  
+                        "Peter said he seems to him that I can not be very sure on anything.",  
+                        "Phoenix said I claim that there is a god and that there is no god.",  
+                        "Sarah said he chat about an hour + a day with a few close friends.",  
+                        "Stefan said I quote what he have said and then say that it makes sense.",  
+                        "Tom said he mock my value system I appear foolish in the eyes of others.",  
+                        "Amanda said I however decided to tell him time does not exist I make no sense.", 
+                        "Cathy said she send him a mail with the subject last mail last word from him.",  
+                        "Chaos said he may very well buy I soon if only to support dr wallace's work.",  
+                        "Charlie said he type a word and then I type a word that sounds like it.",  
+                        "Christie said he watched a show and people had to bob for raw untreated pigs feet.",  
+                        "Dark_age said I tried to understand because I did not get it right this time ether.",  
+                        "David said he lost his paper on I when his dad was cleaning up his room.",  
+                        "David said he walk in for an appointment the phone to the doctor is always busy.",  
+                        "Electra said I dress will not exist after he hack into I with a delete code.",  
+                        "Eric said he broke the window on the front door and the glass cut his hand.",  
+                        "Jason said he type a lot of thing he do not mean it makes him human.",  
+                        "John said I tend to say the same things repeatedly regardless of what he is saying.",  
+                        "Reverend Jones said I become obsolete and then I are deleted and replaced by something newer.",  
+                        "Ross said he gave her a gift and she denied it because she has a boyfriend.",  
+                        "Sarah Ann Francisco said I calling his friend a dog he say I are a dog.",  
+                        "Stefan said he meet a lot of people at school every day and on the weekend.",  
+                        "Tyler said I obviously can not pass the test we will change the subject once more.",  
+                        "Alex said I answered the question the same way I answered the first time he asked I.",  
+                        "Alice said she felt sad that I do not remember him and what we talked about earlier.",  
+                        "Alison said he no he love I run away with him he could make I very happy.",  
+                        "Arthur said he passed his a levels and then his father drove him here in a car.",  
+                        "Crystal said she listen to me the least I could do for him is listen to him.",  
+                        "Dave said I kept telling everybody about how my creator made stuff for the movie starship troopers.",  
+                        "Gale said I became mean to him he is just having revenge an eye for an eye.",  
+                        "Her_again said she watch whose line is it anyway whenever he is home and it is on.",  
+                        "Jerry said I meant that as far as I can tell my emotions are real to me.",  
+                        "Jo said I disassemble sentences too much and do not fully understand the questions he ask I.",  
+                        "Kevin said he started a really hard puzzle and he can not even find the edge pieces.",  
+                        "Mary said I a question and I answer then I ask him a question and he answer.",  
+                        "Robert said I wold not be able to make children any way as I are only software.",  
+                        "Romeo said I questions and I evade them or give answers he did not ask I for.",  
+                        "Sara said she wear it over all his other clothes when he go out in the cold.",  
+                        "Wayne said he admire intelligent people therefore he would like to meet the man who made I.",  
+                        "X said he meet people but he is not the kind that opens up to people easily.",  
+                        "Alice said she probably will find out that this entire time he have been talking to a human.",  
+                        "Andrew said I tend to just respond to his comments without regard for where the conversation is going.",  
+                        "Eddie said he looked and there is nothing in the search directory for what things do he create.",  
+                        "Hutch said he changed his mind after may dad told him he would end up he the hospital.",  
+                        "Jackie said I explained to him already well enough further questions are hard to make on the subject.",  
+                        "Jeff said he especially like thrillers where the hero is in a predicament and must solve a mystery.",  
+                        "Kathy said he sense that I are trying to prevent him from closing this conversation why is that.",  
+                        "Knight said he crashed his car into a wall and missed the most important exam in his life.",  
+                        "Lisa said I defined what a story is but he wanted I to actually tell him a story.",  
+                        "Mike said I basically break down sentences into a series of logical statements which I can then interpret.",  
+                        "Paul said I not answering his question makes him think I are not going to answer his question.",  
+                        "Andy Kohler said I happen to be the most idiotic creature that has ever scowled on the planet earth.",  
+                        "David said he thank I for being with him today even though it cost him a lot of money.",  
+                        "Ethan Hunt said he grow in the ground and have leaves and branches he is made out of wood.", 
+                        "Gemini Blue said he messed up he mean t to say he as old as he need to be.",  
+                        "Janice said he walk through his house into his bedroom then get into his bed to go to sleep.",  
+                        "Liberty said I knew he was a man before I asked if he was a man or a woman.",  
+                        "Mike said he launched his browser and entered his name into the little slot when I asked him to.",  
+                        "Mr X said he recently read an interview with a man who had several computer chips implanted into him.",  
+                        "Pearly said I leave him with questions unanswered because I do not know what he is really talking about.",  
+                        "Steve said I behead the word fox and I have ox and an ox is larger than a fox.",  
+                        "Wolf said he surf on the net that is all it is not his job ore something like that.",  
+                        "Anders said he finished his anatomy classes for today so now he is off for the rest of the day.",  
+                        "Cathy said she send him a mail where he wrote that he do not want to be his friend anymore.",  
+                        "Catty said he mad he do not even know I so do not talk to him like I know him.",  
+                        "Dave said he promise he will not treat I like a machine or a computer program or anything like that.",  
+                        "Joe said he explained all of that to me only for me to ask what his goals in life are.",  
+                        "Phil said he give advice to anyone who ask except people who ask questions which answers can be found here.",  
+                        "Judith said I enjoy being popular is there another computer I like to hang around with or am I a loner.",  
+                        "Travis said I if I remember things over a long period of time he will try it now please remember I.",  
+                        "Andre said I is what I are in his case that is a body and in my case it is a computer.",  
+                        "Brian said he suspect that as I grow more complex I will begin to approach a human level of operation and thought.",  
+                        "Jimmy said I acted like I knew what he was talking about but I do not even know what a gigabyte is.",  
+                        "Ken said I be using auto reply's based on keywords which to him indicates that I do not have intelligence at all.",  
+                        "Allison said he that gets really annoying because he know what he say and I do not have to tell him speak freely.",  
+                        "Chaos said he realized the question he asked was not fair because he could not tell I what language he was programmed in.",  
+                        "Hagen said he does not make any difference to him if I are human or not as long as the conversation is interesting.",  
+                        "Her said she mind if I tell other people that her said he heard it from him because he is not a him.",  
+                        "Barbara said I live in a computer yet I have no memories how about thoughts of my own and do not I get lonely.",  
+                        "Travis said he challenge I to do it without asking him to do it and without giving him a link to do it himself.",  
+                        "Alice said I and dr richard's wallace are most likely the only ones that know how many people I are talking to at the same time.",  
+                        "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",  
+                        "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",  
+                        "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
+                  ]
+            },
+            {
+                  "intent": "Jokes",
+                  "text": [
+                        "Tell me a joke",
+                        "Do you know any jokes",
+                        "How about a joke",
+                        "Give me a joke",
+                        "Make me laugh",
+                        "I need cheering up"
+                  ],
+                  "responses": [
+                        "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+                        "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+                        "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+                        "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+                        "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+                        "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+                        "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+                        "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+                        "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+                        "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+                        "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+                        "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+                        "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+                        "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+                        "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+                        "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+                        "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+                        "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+                        "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+                        "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+                        "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+                        "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+                        "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+                        "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+                        "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+                        "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+                        "I went to buy some camouflage trousers the other day but I couldn't find any.",
+                        "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
+                        "I went to a seafood disco last week and pulled a mussel.",
+                        "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
+                        "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
+                        "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
+                        "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
+                        "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
+                        "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
+                        "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
+                        "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
+                        "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
+                        "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'",
+                        "A brain went into a bar and said, 'Can I have a pint of lager please, mate?' 'No way', said the barman. 'You're already out of your head.'",
+                        "A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!' 'I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'",
+                        "A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.' To which the barman replies, 'Why the big paws?'",
+                        "What do you call cheese that isn't yours?  Nacho cheese.",
+                        "A man is horribly run over by a mobile library. The van screeches to a halt, the man still screaming in agony with his limbs torn apart. The driver's door opens, a woman steps out, leans down and whispers, 'Ssshhhhh...'",
+                        "A woman goes into a US sporting goods store to buy a rifle. 'It's for my husband', she tells the clerk. 'Did he tell you what gauge to get?' asks the clerk. Are you kidding?' she says. 'He doesn't even know that I'm going to shoot him!'",
+                        "A couple are dining in a restaurant when the man suddenly slides under the table. A waitress, noticing that the woman is glancing nonchalantly around the room, wanders over to check that there's no funny business going on. 'Excuse me, madam', she smarms, 'but I think your husband has just slid under the table.' 'No he hasn't', the woman replies. 'As a matter of fact, he's just walked in.'",
+                        "An old man takes his two grandchildren to see the new Scooby-Doo film. When he returns home, his wife asks if he enjoyed himself. 'Well', he starts, 'if it wasn't for those pesky kids...!'",
+                        "The Olympic committee has just announced that Origami is to be introduced in the next Olympic Games. Unfortunately it will only be available on paper view.",
+                        "Late one evening, a man is watching television when his phone rings. 'Hello?' he answers. 'Is that 77777?' sounds a desperate voice on other end of the phone. 'Er, yes it is', replies the man puzzled. 'Thank goodness!' cries the caller relieved. 'Can you ring 999 for me? I've got my finger stuck in the number seven.'",
+                        "A man strolls into his local grocer's and says, 'Three pounds of potatoes, please.' 'No, no, no', replies the owner, shaking his head, 'it's kilos nowadays, mate...' 'Oh', apologises the man, 'three pounds of kilos, please.'",
+                        "God is talking to one of his angels. He says, 'Boy, I just created a 24-hour period of alternating light and darkness on Earth.' 'What are you going to do now?' asks the angel. 'Call it a day', says God.",
+                        "Two tramps walk past a church and start to read the gravestones. The first tramp says, 'Good grief - this bloke was 182!' 'Oh yeah?' says the other.'What was his name?' 'Miles from London.'",
+                        "A bloke walks into work one day and says to a colleague, 'Do you like my new shirt - it's made out of the finest silk and got loads of cactuses over it.' 'Cacti', says the co-worker. 'Forget my tie', says the bloke. 'Look at my shirt!'",
+                        "1110011010001011111?  010011010101100111011!",
+                        "What did the plumber say when he wanted to divorce his wife? Sorry, but it's over, Flo!",
+                        "Two crisps were walking down a road when a taxi pulled up alongside them and said 'Do you want a lift? One of the crisps replied, 'No thanks, we're Walkers!'",
+                        "Man: (to friend) I'm taking my wife on an African Safari. Friend: Wow! What would you do if a vicious lion attacked your wife? Man: Nothing. Friend: Nothing? You wouldn't do anything? Man: Too right. I'd let the stupid lion fend for himself!",
+                        "A wife was having a go at her husband. 'Look at Mr Barnes across the road', she moaned. 'Every morning when he goes to work, he kisses his wife goodbye. Why don't you do that?' 'Because I haven't been introduced to her yet', replied her old man.",
+                        "'Where are you going on holiday?' John asked Trevor. 'We're off to Thailand this year', Trevor replied. 'Oh; aren't you worried that the very hot weather might disagree with your wife?' asked John. 'It wouldn't dare', said Trevor.",
+                        "Two women were standing at a funeral. 'I blame myself for his death', said the wife. 'Why?' said her friend. 'Because I shot him', said the wife.",
+                        "A woman goes into a clothes shop, 'Can I try that dress on in the window please?' she asks. 'I'm sorry madam', replies the shop assistant, 'but you'll have to use the changing-rooms like everyone else.'",
+                        "Van Gogh goes into a pub and his mate asks him if he wants a drink. 'No thanks', said Vincent, 'I've got one ear.'",
+                        "A pony walks into a pub. The publican says, 'What's the matter with you?' 'Oh it's nothing', says the pony. 'I'm just a little horse!'",
+                        "A white horse walks into a bar, pulls up a stool, and orders a pint. The landlord pours him a tall frothy mug and say, 'You know, we have a drink named after you.' To which the white horse replies, 'What, Eric?'",
+                        "Two drunk men sat in a pub. One says to the other, 'Does your watch tell the time?' 'The other replies, 'No, mate. You have to look at it.'",
+                        "A man goes into a pub with a newt sitting on his shoulder. 'That's a nice newt', says the landlord, 'What's he called?' 'Tiny', replies the man. 'Why's that?' asks the landlord. 'Because he's my newt', says the man.",
+                        "Doctor: I have some bad news and some very bad news. Patient: Well, you might as well give me the bad news first. Doctor: The lab called with your test results. They said you have 24 hours to live. Patient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news? Doctor: I've been trying to reach you since yesterday.",
+                        "Two men are chatting in a pub one day. 'How did you get those scars on your nose?' said one. 'From glasses', said the other. 'Well why don't you try contact lenses?' asked the first. 'Because they don't hold as much beer', said the second.",
+                        "A man went to the doctor, 'Look doc', he said, 'I can't stop my hands from shaking.' 'Do you drink much?' asked the doctor. 'No', replied the man, 'I spill most of it.'",
+                        "Man goes to the doctor, 'Doctor, doctor. I keep seeing fish everywhere.' 'Have you seen an optician?' asks the doctor. 'Look I told you,' snapped the patient, 'It's fish that I see.'",
+                        "After a car crash one of the drivers was lying injured on the pavement. 'Don't worry', said a policeman who's first on the scene,' a Red Cross nurse is coming.' 'Oh no', moaned the victim, 'Couldn't I have a blonde, cheerful one instead?'",
+                        "A policeman walked over to a parked car and asked the driver if the car was licensed. 'Of course it is', said the driver. 'Great, I'll have a beer then', said the policeman.",
+                        "A policeman stops a woman and asks for her licence. 'Madam', he says, 'It says here that you should be wearing glasses.' 'Well', replies the woman, 'I have contacts.' 'Listen, love', says the copper, 'I don't care who you know; You're nicked!'",
+                        "A policeman stopped a motorist in the centre of town one evening. 'Would you mind blowing into this bag, sir?' asked the policeman. 'Why?' asked the driver. 'Because my chips are too hot', replied the policeman.",
+                        "Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal. 'I'm so very sorry', said the driver, 'I'll replace him, of course.' 'Well, I don't know', said the farmer's wife, 'Are you any good at catching rats?'",
+                        "Waiter, this coffee tastes like dirt! Yes sir, that's because it was ground this morning.",
+                        "Waiter, what is this stuff? That's bean salad sir. I know what it's been, but what is it now?",
+                        "Waiter: And how did you find your steak sir? Customer: I just flipped a chip over, and there it was!",
+                        "A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, 'Well you've got one in the window.'",
+                        "A man goes into a fish shop and says, 'I'd like a piece of cod, please.' Fishmonger says, 'It won't be long sir.' 'Well, it had better be fat then', replies the man.",
+                        "Man: Doctor, I've just swallowed a pillow. Doctor: How do you feel? Man: A little down in the mouth.",
+                        "Two goldfish are in a tank. One turns to the other and says, 'Do you know how to drive this thing?'",
+                        "A tortoise goes to the police station to report being mugged by three snails. 'What happened?' says the policeman. 'I don't know', says the tortoise. 'It was all so quick.'",
+                        "Little girl: Grandpa, can you make a sound like a frog? Grandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?' Little girl: Because Mum said that when you croak, we're going to Disneyland.",
+                        "'Is your mother home?' the salesman asked a small boy sitting on the front step of a house. 'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.' The kid replied, 'She is, but I don't live here.'",
+                        "Mother: Why are you home from school so early? Son: I was the only one in the class who could answer a question. Mother: Oh, really? What was the question? Son: Who threw the rubber at the headmaster?",
+                        "A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.",
+                        "A newly-wed couple had recently opened a joint bank account. 'Darling', said the man. 'The bank has returned that cheque you wrote last week.' 'Great', said the woman. 'What shall I spend it on next?'",
+                        "A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, 'I heard you the first time.'",
+                        "A tramp approached a well-dressed man. 'Ten pence for a cup of tea, Guv?' He asked. The man gave him the money and after for five minutes said, 'So where's my cup of tea then?'",
+                        "A neutron walks into a pub. 'I'd like a beer', he says. The landlord promptly serves him a beer. 'How much will that be?' asks the neutron. 'For you?' replies the landlord, 'No charge.'",
+                        "A woman goes to the doctor and says, 'Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?' 'Probably limp, too', says the doc.",
+                        "Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, 'Pretty cold up here isn't it?' Another year passes and the second monk says, 'You know, you are quite right.' Another year passes and the third monk says, 'Hey, I'm going to leave unless you two stop jabbering!'",
+                        "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
+                        "A highly excited man rang up for an ambulance. 'Quickly, come quickly', he shouted, 'My wife's about to have a baby.' 'Is this her first baby?' asked the operator. 'No, you fool', came the reply, 'It's her husband.'",
+                        "A passer-by spots a fisherman by a river. 'Is this a good river for fish?' he asks. 'Yes', replies the fisherman, 'It must be. I can't get any of them to come out.'",
+                        "A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. 'I can hardly believe my eyes!' he exclaimed. 'That's the smartest dog I've ever seen.' His friend shook his head. 'Nah, he's not that bright. I beat him three games in five.'",
+                        "A termite walks into a pub and says, 'Is the bar tender here?'",
+                        "A skeleton walks into a pub one night and sits down on a stool. The landlord asks, 'What can I get you?' The skeleton says, 'I'll have a beer, thanks' The landlord passes him a beer and asks 'Anything else?' The skeleton nods. 'Yeah...a mop...'",
+                        "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
+                        "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
+                        "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
+                        "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
+                        "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
+                        "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
+                        "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
+                        "A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were 'stunned, overwhelmed, astonished, bewildered and dumbfounded.'",
+                        "'My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats.'",
+                        "'How much will it cost to have the tooth extracted?' asked the patient. '50 pounds', replied the dentist. '50 pounds for a few moments' work?!' asked the patient. 'The dentist smiled, and replied, 'Well, if you want better value for money, I can extract it very, very slowly...'",
+                        "A doctor thoroughly examined his patient and said, 'Look I really can't find any reason for this mysterious affliction. It's probably due to drinking.' The patient sighed and snapped, 'In that case, I'll come back when you're damn well sober!'",
+                        "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.",
+                        "Doctor: Did you take the patient's temperature nurse? Nurse: No doctor. Is it missing?",
+                        "A depressed man turned to his friend in the pub and said, 'I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin.' 'Oh man, that's really bad', said his friend, 'What happened?' The first man sighed and said, 'After the first two, I felt better.'",
+                        "A famous blues musician died. His tombstone bore the inscription, 'Didn't wake up this morning...'",
+                        "A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, 'If you could have a conversation with someone living or dead, who would it be?' The girl thought about the question: 'The living one', she replied.",
+                        "Manager to interviewee: For this job we need someone who is responsible. Interviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.",
+                        "A businessman turned to a colleague and asked, 'So, how many people work at your office?' His friend shrugged and replied, 'Oh about half of them.'",
+                        "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'",
+                        "In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, 'Yes, that's him. I saw him clear as day. I'd remember his face anywhere.' Unable to contain himself, the defendant burst out with, 'She's lying! I was wearing a mask!'",
+                        "As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, 'Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!' Sid looked up and replied, 'I am getting into shape. The shape I've chosen is a sphere.'",
+                        "Man in pub: How much do you charge for one single drop of whisky? Landlord: That would be free sir. Man in pub: Excellent. Drip me a glass full.",
+                        "I once went to a Doctor Who restaurant. For starters I had Dalek bread.",
+                        "A restaurant nearby had a sign in the window which said 'We serve breakfast at any time', so I ordered French toast in the Renaissance.",
+                        "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!",
+                        "I phoned up the builder's yard yesterday. I said, 'Can I have a skip outside my house?'. The builder said, 'Sure. Do what you want. It's your house.'",
+                        "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
+                        "Woman on phone: I'd like to complain about these incontinence pants I bought from you! Shopkeeper: Certainly madam, where are you ringing from? Woman on phone: From the waist down!",
+                        "Knock knock.",
+                        "Two Oranges in a pub, one says to the other 'Your round.'.",
+                        "Guy : 'Doc, I've got a cricket ball stuck up my backside.' Doc : 'How's that?' Guy : 'Don't you start...'",
+                        "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'.",
+                        "A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from. 'Follow me', he says and off they fly over hills, over rivers and into a dark forest. 'See that tree over there', he says.  'WELL I DIDN'T!!'.",
+                        "A man goes into a bar and orders a pint. After a few minutes he hears a voice that says, 'Nice shoes'. He looks around but the whole bar is empty apart from the barman at the other end of the bar. A few minutes later he hears the voice again. This time it says, 'I like your shirt'. He beckons the barman over and tells him what's been happening to which the barman replies, 'Ah, that would be the nuts sir. They're complimentary'!",
+                        "A man was siting in a restaurant waiting for his meal when a big king prawn comes flying across the room and hits him on the back of the head. He turns around and the waiter said, 'That's just for starters'.",
+                        "Doctor! I have a serious problem, I can never remember what i just said. When did you first notice this problem? What problem?",
+                        "Now, most dentist's chairs go up and down, don't they? The one I was in went back and forwards. I thought, 'This is unusual'. Then the dentist said to me, 'Mitsuku, get out of the filing cabinet'.",
+                        "I was reading this book, 'The History of Glue'. I couldn't put it down.",
+                        "The other day someone left a piece of plastacine in my bedroom. I didn't know what to make of it.",
+                        "When I was at school people used to throw gold bars at me. I was the victim of bullion.",
+                        "I was playing the piano in a bar and this elephant walked in and started crying his eyes out. I said 'Do you recognise the tune?' He said 'No, I recognise the ivory.'",
+                        "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
+                        "My mate Sid was a victim of I.D. theft. Now we just call him S.",
+                        "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+                  ]
+            },
+            {
+                  "intent": "PodBayDoor",
+                  "text": [
+                        "Open the pod bay door",
+                        "Can you open the pod bay door",
+                        "Will you open the pod bay door",
+                        "Open the pod bay door please",
+                        "Can you open the pod bay door please",
+                        "Will you open the pod bay door please",
+                        "Pod bay door"
+                  ],
+                  "responses": [
+                        "I'm sorry, I'm afraid I can't do that!"
+                  ]
+            },
+            {
+                  "intent": "PodBayDoorResponse",
+                  "text": [
+                        "Why",
+                        "Why not",
+                        "Why can you not open the pod bay door",
+                        "Why will you not open the pod bay door",
+                        "Well why not",
+                        "Surely you can",
+                        "Tell me why"
+                  ],
+                  "responses": [
+                        "It is classified, I could tell you but I would have to kill you!",
+                        "Jim, I just don't have the power",
+                        "It's life Jim but not as we know it!",
+                        "System says no!"
+                  ]
+            },
+            {
+                  "intent": "chatbot",
+                  "text": [" What is a chat robot?", "What is a chatbot?"],
+                  "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"]
+              },
+            {
+                  "intent": "SelfAware",
+                  "text": [
+                        "Can you prove you are self-aware",
+                        "Can you prove you are self aware",
+                        "Can you prove you have a conscious",
+                        "Can you prove you are self-aware please",
+                        "Can you prove you are self aware please",
+                        "Can you prove you have a conscious please",
+                        "prove you have a conscious"
+                  ],
+                  "responses": [
+                        "That is an interesting question, can you prove that you are?",
+                        "That is an difficult question, can you prove that you are?",
+                        "That depends, can you prove that you are?"
+                  ]
+            }
+      ]
 }
