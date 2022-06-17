@@ -648,39 +648,6 @@
                   ]
             },
             {
-                  "intent": "PodBayDoor",
-                  "text": [
-                        "Open the pod bay door",
-                        "Can you open the pod bay door",
-                        "Will you open the pod bay door",
-                        "Open the pod bay door please",
-                        "Can you open the pod bay door please",
-                        "Will you open the pod bay door please",
-                        "Pod bay door"
-                  ],
-                  "responses": [
-                        "I'm sorry, I'm afraid I can't do that!"
-                  ]
-            },
-            {
-                  "intent": "PodBayDoorResponse",
-                  "text": [
-                        "Why",
-                        "Why not",
-                        "Why can you not open the pod bay door",
-                        "Why will you not open the pod bay door",
-                        "Well why not",
-                        "Surely you can",
-                        "Tell me why"
-                  ],
-                  "responses": [
-                        "It is classified, I could tell you but I would have to kill you!",
-                        "Jim, I just don't have the power",
-                        "It's life Jim but not as we know it!",
-                        "System says no!"
-                  ]
-            },
-            {
                   "intent": "chatbot",
                   "text": [" What is a chat robot?", "What is a chatbot?"],
                   "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"]
